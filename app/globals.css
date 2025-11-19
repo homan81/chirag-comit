@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+    --dgreen: #1B3F2E;
+    --dgreen2: #147E5D;
+    /* --dgreen: #1b3233; */
+    --lgreen: #ceead5;
+    --lgreen2: #daebe3;
+    --lgreen3: #ecf6f2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html body {
+    font-family: "Poppins", sans-serif !important;
+}
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    opacity: 0;
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+/* Keep your original animation */
+.fade-up.show {
+    animation: fadeUp 1.5s forwards;
+}
+
+/* --- NEW DELAY CLASSES --- */
+.delay-1  { animation-delay: 0.1s; }
+.delay-2  { animation-delay: 0.3s; }
+.delay-3  { animation-delay: 0.5s; }
+.delay-4  { animation-delay: 0.7s; }
+.delay-5  { animation-delay: 0.9s; }
+.delay-6  { animation-delay: 1.1s; }
+.delay-7  { animation-delay: 1.3s; }
+.delay-8  { animation-delay: 1.5s; }
+.delay-9  { animation-delay: 1.7s; }
+.delay-10 { animation-delay: 1.9s; }
+.delay-11 { animation-delay: 2.1s; }
+
+
+.bar {
+  height: 0px;
+  transition: height 0.4s ease;
+}
+
+.bar.animate {
+  height: 30px;
+}
+
+
+.custom_height {
+    height: 30px;
+}
+
+.bg-lgreen {
+    background-color: #1b3233 !important;
+}
+
+header.bg-lgreen {
+    background-color: #1B3233;
+}
+
+footer.bg-lgreen {
+    background-color: #1b3233;
+}
+
+p.text-lg.mb-6.leading-relaxed {
+    color: darkgray;
+}
+
+.right-bottom-footer .footer-link,
+.right-bottom-footer .heading-footer-links {
+    color: var(--lgreen);
+    font-size: 18px;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.mainbanner img {
+    text-align: center;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    /* border: 50px solid #fff; */
+    border-bottom: 0px;
+    width: 83%;
+    margin: auto !important;
+}
+
+.heading-h {
+    font-size: 81px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subtitle-h {
+    font-size: 31px !important;
+    font-weight: 300 !important;
+    line-height: 135% !important;
+}
+
+.map-img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.left-sticky-process {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 470px;
+    display: flex;
+}
+
+.right-sticky-process {
+    grid-row-gap: 41px;
+    flex-direction: column;
+    display: flex;
+}
+
+.process {
+    padding: 7% 4%;
+}
+
+.bookbox {
+    padding: 10% 12% 15% 4%;
+    margin-right: 20%;
+}
+
+
+.brdr_topbtm:after {
+    content: '';
+    height: 1.5px;
+    width: 60px;
+    background: #707070;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.brdr_topbtm:before {
+    content: '';
+    height: 1.5px;
+    width: 60px;
+    background: #707070;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 768px) {
+
+    .brdr_topbtm:after,
+    .brdr_topbtm:before {
+        display: none;
+    }
+
+    .bookbox {
+        padding: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .heading-h {
+        font-size: 40px;
+    }
+
+    .subtitle-h {
+        font-size: 24px !important;
+    }
+
+    .email-news {
+        display: block;
+    }
+}
+
+.ebutton {
+    padding: 20px 45px;
+    border-radius: 50px;
+}
+
+/* .email-footer{
+    padding: 20px;
+} */
+
+.box-news {
+    padding: 5%;
+}
+
+img.h-8 {
+    height: 50px;
+}
+
+
+
+
+
+/* .video-bg-wrapper {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.video-bg-wrapper iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  object-fit: cover;
+} */
+
+
+.fade-slide {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-slide.show {
+  opacity: 1;
+  transform: translateY(0px);
+}
