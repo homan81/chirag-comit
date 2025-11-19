@@ -77,16 +77,21 @@ export default function Last() {
                   DNA
                 </div>
               </div>
-              <button
-                className="top bg-[#1b3f2e] p-[10px] rounded-[14px] text-white text-[20px]"
-                onClick={() => {
-                  document.getElementById("secondtsx")?.scrollIntoView({
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                view case studies
-              </button>{" "}
+            </div>
+
+<div className="text-center">
+
+            <button
+              className="top bg-[var(--dgreen2)] py-2.5 px-5 rounded-[14px] text-white text-[20px] "
+              onClick={() => {
+                document.getElementById("secondtsx")?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              view case studies
+            </button>
+
             </div>
           </div>
         </div>
