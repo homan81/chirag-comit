@@ -14,7 +14,7 @@ export default function ScrumPage() {
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
           {/* Left Column */}
-          <div className="bg-[var(--lgreen3)] p-16 rounded-xl">
+          <div className="bg-[var(--lgreen3)] p-5 sm:p-16 rounded-xl">
             <div className="flex gap-2 mb-12">
               <span className="w-[30px] h-[30px] bg-[var(--dgreen)] rounded-full block" />
               <span className="w-[50px] h-[30px] bg-[#455959] rounded-full block" />
@@ -73,8 +73,8 @@ export default function ScrumPage() {
           </div>
 
           {/* Right Column */}
-          <div className="p-4">
-            <div className="p-5">
+          <div className="p-0 sm:p-4">
+            <div className="p-0 sm:p-5">
               <h3 className="text-[23px] font-medium max-w-[370px] mx-auto text-center px-3">
                 Fill in the form and we will get back to you within 24h
               </h3>

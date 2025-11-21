@@ -8,11 +8,11 @@ export default function Second() {
   return (
     <>
       <section>
-        <div className="px-5  py-15 bg-white">
+        <div className="px-5 py-5 sm:py-15 bg-white">
           <div className="max-w-[1250px] mx-auto">
             <div className="mb-7">
               <div className="md:flex w-full items-stretch gap-7">
-                <div className="md:w-[20%] lg:order-2">
+                <div className="md:w-[20%] lg:order-2 mb-5 md:mb-0">
                   <Image
                     src="/assests/header/images/Jatin-Panchal.png"
                     className="w-full h-auto rounded-xl"
@@ -44,7 +44,7 @@ export default function Second() {
             </div>
             <div>
               <div className="md:flex w-full items-stretch gap-7">
-                <div className="md:w-[20%]">
+                <div className="md:w-[20%] mb-5 md:mb-0">
                   <Image
                     src="/assests/header/images/Vinod-Rao.jpg"
                     className="w-full h-auto"
