@@ -25,7 +25,7 @@ export default function Second() {
                   height={80}
                   className="py-5"
                 />
-                <div className="text-center text-lg font-bold text-[var(--dgreen)]"></div>
+                <div className="text-center text-lg font-bold text-[var(--dgreen)]">connect@leapbridgeconsulting.com</div>
                 {/* <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div> */}
               </a>
               <a

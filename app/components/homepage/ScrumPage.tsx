@@ -67,7 +67,7 @@ export default function ScrumPage() {
                   width={24}
                   height={24}
                 />
-                <div></div>
+                <div>connect@leapbridgeconsulting.com</div>
               </a>
             </div>
           </div>
