@@ -18,7 +18,7 @@ export default function Last() {
       <section>
         <div className="">
           <div className="container mx-auto px-5 py-10">
-            <div className="mb-10">
+            {/* <div className="mb-10">
               <h1
                 ref={heading.ref}
                 className={`fade-up ${
@@ -27,7 +27,7 @@ export default function Last() {
               >
                 DELIVERABLES / OUTCOMES
               </h1>
-            </div>
+            </div> */}
 
             <div className="flex justify-center items-stretch flex-wrap mb-5 2xl:gap-12 lg:gap-8 gap-3 *:md:w-[48%]  *:w-full *:md:max-w-full *:max-w-[400px] [&>div>div]:py-3 [&>div>div]:lg:px-10 [&>div>div]:px-5 [&>div>div]:text-center [&>div>div]:text-white [&>div>div]:text-xl [&>div>div]:rounded-md [&>div>div]:flex [&>div>div]:items-center [&>div>div]:justify-center [&>div>div]:h-full  [&>div>div]:transition [&>div>div]:ease-in-out [&>div>div]:hover:opacity-90">
               <div
@@ -62,6 +62,7 @@ export default function Last() {
                   Set a new benchmark for data-backed store selection and execution excellence, paving the way for the company’s successful cold-chain category entry.
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

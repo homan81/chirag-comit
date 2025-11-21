@@ -28,7 +28,7 @@ export default function Second() {
               <h1
                 ref={heading.ref}
                 className={`fade-up ${heading.isVisible ? "show" : ""
-                  } text-3xl font-bold text-[var(--dgreen)] text-center mb-5`}
+                  } text-4xl font-bold text-[var(--dgreen)] text-center mb-5`}
               >
                 Notable Work Done
               </h1>
@@ -49,7 +49,7 @@ export default function Second() {
               </p>
             </div>
 
-            <div className="flex justify-center items-stretch flex-wrap mb-5 2xl:gap-7 lg:gap-5 gap-3 *:lg:w-[23%] *:md:w-[31%] *:w-full *:md:max-w-full *:max-w-[400px] [&_a]:p-3 [&_a]:text-center [&_a]:text-white [&_a]:text-[14px] [&_a]:rounded-md [&_a]:flex [&_a]:items-center [&_a]:justify-center [&_a]:h-full [&>div:nth-child(odd)_a]:bg-[var(--dgreen)] [&>div:nth-child(even)_a]:bg-[var(--dgreen2)] [&_a]:transition [&_a]:ease-in-out [&_a]:hover:opacity-90">
+            <div className="flex justify-center items-stretch flex-wrap mb-5 2xl:gap-7 lg:gap-5 gap-3 *:lg:w-[23%] *:md:w-[31%] *:w-full *:md:max-w-full *:max-w-[400px] [&_a]:p-3 [&_a]:text-center [&_a]:text-white [&_a]:text-xl [&_a]:rounded-md [&_a]:flex [&_a]:items-center [&_a]:justify-center [&_a]:h-full [&>div:nth-child(odd)_a]:bg-[var(--dgreen)] [&>div:nth-child(even)_a]:bg-[var(--dgreen2)] [&_a]:transition [&_a]:ease-in-out [&_a]:hover:opacity-90">
               <div
                 ref={link1.ref}
                 className={`fade-up ${link1.isVisible ? "show delay-1" : ""}`}

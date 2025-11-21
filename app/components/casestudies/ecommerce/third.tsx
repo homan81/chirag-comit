@@ -25,7 +25,7 @@ export default function Third() {
                 </h2>
               </div>
               <div>
-                <p className="text-white text-lg font-medium">
+                <p className="text-white text-4xl font-medium">
                   E-Commerce Scale-Up for a Legacy FMCG Business
                 </p>
               </div>
@@ -46,8 +46,8 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Company</h3>
-                    <p>A Large Indian MNC</p>
+                    <h3 className="text-xl">Company</h3>
+                    <p className="text-xl">A Large Indian MNC</p>
                   </div>
                   <div>
                      <Image
@@ -57,8 +57,8 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Sector</h3>
-                    <p>FMCG</p>
+                    <h3 className="text-xl">Sector</h3>
+                    <p className="text-xl">FMCG</p>
                   </div>
                   <div>
                      <Image
@@ -68,14 +68,14 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Project</h3>
-                    <p>
+                    <h3 className="text-xl">Project</h3>
+                    <p className="text-xl">
                       Building a future-ready digital commerce business.
                     </p>
                   </div>
                 </div>
 
-                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[15px] font-medium mt-7 rounded-md">The company had a nascent ecommerce business and wanted to levarge the consumer shift and build a sustainable ecommerce business</p>
+                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[16px] font-bold mt-7 rounded-md">The company had a nascent ecommerce business and wanted to levarge the consumer shift and build a sustainable ecommerce business</p>
 
               </div>
             </div>

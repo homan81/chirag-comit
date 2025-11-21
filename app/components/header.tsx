@@ -39,7 +39,7 @@ export default function Header() {
                 width={500}
                 height={500}
                 // className="h-[50px] w-auto"
-                className="my-4 w-full h-auto max-w-[230px]"
+                className="my-4 w-full h-auto max-w-[200px]"
               />
             </Link>
 

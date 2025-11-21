@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>In a large FMCG organization, the sales field force was managed through distributor payrolls, resulting in delayed salary disbursals, low motivation, and high attrition (~32%). The lack of standardized HR processes created inconsistencies in payouts, limited performance visibility, and placed a heavy working capital burden on distributors. The organization needed to bring discipline, transparency, and scalability to its frontline workforce model while improving morale and productivity.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">In a large FMCG organization, the sales field force was managed through distributor payrolls, resulting in delayed salary disbursals, low motivation, and high attrition (~32%). The lack of standardized HR processes created inconsistencies in payouts, limited performance visibility, and placed a heavy working capital burden on distributors. The organization needed to bring discipline, transparency, and scalability to its frontline workforce model while improving morale and productivity.</p>
               </div>
               
             </div>

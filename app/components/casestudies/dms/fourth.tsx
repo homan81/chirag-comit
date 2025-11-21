@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>In the absence of a Distributor Management System (DMS), the company’s secondary sales processes were manual and opaque, leading to low visibility on stock levels, daily secondary sales, and claim settlements. Claim reconciliation was cumbersome, often taking over 90 days, resulting in delayed payments, high distributor dissatisfaction, and limited real-time insight for management. The lack of automation created inefficiencies, poor data quality, and strained relationships within the distribution network — impacting both agility and credibility.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">In the absence of a Distributor Management System (DMS), the company’s secondary sales processes were manual and opaque, leading to low visibility on stock levels, daily secondary sales, and claim settlements. Claim reconciliation was cumbersome, often taking over 90 days, resulting in delayed payments, high distributor dissatisfaction, and limited real-time insight for management. The lack of automation created inefficiencies, poor data quality, and strained relationships within the distribution network — impacting both agility and credibility.</p>
               </div>
               
             </div>

@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>A medium-sized MNC operating in India faced sustained pressure on margins and growth. The business was built around a legacy push-sell portfolio, heavy discounting, and fragmented distribution — resulting in negative gross margins ( 7%) on a $30 million revenue base. The sales organization lacked strategic alignment, the distributor network was inefficient, and the product mix was skewed toward low-margin, commoditized segments. The corporate mandate was to transform the business model, drive profitability, and establish market leadership through a premiumized portfolio and stronger commercial execution.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">A medium-sized MNC operating in India faced sustained pressure on margins and growth. The business was built around a legacy push-sell portfolio, heavy discounting, and fragmented distribution — resulting in negative gross margins ( 7%) on a $30 million revenue base. The sales organization lacked strategic alignment, the distributor network was inefficient, and the product mix was skewed toward low-margin, commoditized segments. The corporate mandate was to transform the business model, drive profitability, and establish market leadership through a premiumized portfolio and stronger commercial execution.</p>
               </div>
 
             </div>

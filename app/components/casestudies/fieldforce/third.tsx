@@ -21,11 +21,11 @@ export default function Third() {
             <div className="mb-25 flex justify-center gap-14 items-center">
               <div>
                 <h2 className="text-4xl text-white">
-                  <strong>Case</strong> Study
+                  <strong>Case Study</strong> 
                 </h2>
               </div>
               <div>
-                <p className="text-white text-lg font-medium">
+                <p className="text-white text-3xl font-medium">
                   Field Force Migration to Third-Party Payroll & Efficiency Enhancement
                 </p>
               </div>
@@ -46,8 +46,8 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Company</h3>
-                    <p>A Large FMCG Co</p>
+                    <h3 className="text-xl">Company</h3>
+                    <p className="text-xl">A Large FMCG Co</p>
                   </div>
                   <div>
                      <Image
@@ -57,8 +57,8 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Sector</h3>
-                    <p>FMCG</p>
+                    <h3 className="text-xl">Sector</h3>
+                    <p className="text-xl">FMCG</p>
                   </div>
                   <div>
                      <Image
@@ -68,14 +68,14 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Project</h3>
-                    <p>
+                    <h3 className="text-xl">Project</h3>
+                    <p className="text-xl">
                       Empowering people, powering performance.
                     </p>
                   </div>
                 </div>
 
-                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[15px] font-medium mt-7 rounded-md">The company wanted to transition the entire field force to a centralised payroll system and use technology to drive performance measurements and compliance.</p>
+                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[16px] font-bold mt-7 rounded-md">The company wanted to transition the entire field force to a centralised payroll system and use technology to drive performance measurements and compliance.</p>
 
               </div>
             </div>

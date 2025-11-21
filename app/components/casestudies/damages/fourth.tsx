@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>In the foods category business, market returns and damages had escalated to 4 4.5%, significantly higher than industry norms. This high level of wastage impacted both topline realization and bottom-line profitability. The underlying issues spanned forecasting inaccuracies, weak replenishment processes, SKU complexity, and limited visibility across the supply chain. The mandate was to identify the root causes and reduce returns to sustainable FMCG benchmarks without disrupting sales momentum.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">In the foods category business, market returns and damages had escalated to 4 4.5%, significantly higher than industry norms. This high level of wastage impacted both topline realization and bottom-line profitability. The underlying issues spanned forecasting inaccuracies, weak replenishment processes, SKU complexity, and limited visibility across the supply chain. The mandate was to identify the root causes and reduce returns to sustainable FMCG benchmarks without disrupting sales momentum.</p>
               </div>
               
             </div>

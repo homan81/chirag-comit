@@ -99,14 +99,14 @@ export default function Footer() {
                   Category Experience
                 </Link>
                 <Link
-                  href="/industries"
+                  href="/testimonials"
                   className={`hover:text-[#53FFA9] transition ${
-                    pathname === "/industries"
+                    pathname === "/testimonials"
                       ? "text-[#53FFA9]"
                       : "text-[var(--lgreen)]"
                   }`}
                 >
-                  Industries
+                  testimonials
                 </Link>
                 <Link
                   href="/casestudies"

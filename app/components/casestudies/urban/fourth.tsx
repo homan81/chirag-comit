@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>A leading FMCG company with a robust urban retail presence and a diversified category portfolio sought to improve sales productivity without expanding its direct distribution footprint. While rural expansion was consuming significant investment, the urban network had latent potential for value growth. The key challenge was to drive efficiency within existing outlets through better assortment planning, upselling, and salesforce effectiveness, given that SKU priorities and category contribution varied by region and micro-market.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">A leading FMCG company with a robust urban retail presence and a diversified category portfolio sought to improve sales productivity without expanding its direct distribution footprint. While rural expansion was consuming significant investment, the urban network had latent potential for value growth. The key challenge was to drive efficiency within existing outlets through better assortment planning, upselling, and salesforce effectiveness, given that SKU priorities and category contribution varied by region and micro-market.</p>
               </div>
               
             </div>

@@ -24,13 +24,13 @@ export default function Fourth() {
               <div className="bg-[var(--lgreen)] relative rounded-2xl p-[50px] mb-[140px]">
                 <div className="flex gap-10">
                   <div className="max-w-[300px] w-full">
-                    <Image src="/assests/header/images/Jatin-Panchal.jpg" className="w-full h-auto rounded-2xl" width={1000} height={1000} alt="" />
+                    <Image src="/assests/header/images/Jatin-Panchal.png" className="w-full h-auto rounded-2xl" width={1000} height={1000} alt="" />
                   </div>
                   <div className="w-full">
                     <div>
                       <h3 className="text-3xl font-semibold text-[var(--dgreen)]">Jatin Panchal</h3>
                       <p className="font-medium text-[var(--dgreen)] text-xl">Founder & Partner</p>
-                      <p className="text-xl text-[var(--dgreen2)] ">MBA: SIBM Exec MBA: INSEAD, France</p>
+                      <p className="text-xl text-[var(--dgreen2)] ">MBA: SIBM;Exec MBA: INSEAD, France</p>
                     </div>
                     <div className="h-[1px] bg-black max-w-[350px] my-2"></div>
                     <div className="text-xl max-w-[880px] mt-5">
@@ -39,7 +39,7 @@ export default function Fourth() {
                   </div>
                 </div>
                 <div className="absolute left-0 -bottom-[105px] text-white py-6 px-[50px] bg-[var(--dgreen)] w-fit rounded-tr-[20px] rounded-br-[30px] rounded-bl-[60px] text-[20px]">
-                  <p><strong>Abbot Nutrition</strong> - Commercial Leader</p>
+                  <p><strong>Abbot Nutrition</strong> - Director Sales</p>
                   <p><strong>Danone Nutrition</strong> - Director sales</p>
                   <p><strong>Godrej Consumer Products Ltd.</strong> - Head - Sales Development</p>
                 </div>

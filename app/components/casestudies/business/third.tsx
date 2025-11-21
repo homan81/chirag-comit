@@ -20,13 +20,14 @@ export default function Third() {
           <div className="container mx-auto px-5 py-10">
             <div className="mb-25 flex justify-center gap-14 items-center">
               <div>
-                <h2 className="text-4xl text-white">
+                <h2 className="text-3xl text-white">
                   <strong>Case</strong> Study
                 </h2>
               </div>
               <div>
-                <p className="text-white text-lg font-medium">
-                  Business Turnaround from a Legacy Low-Margin Portfolio to a Premium, Profitable Model
+                <p className="text-white text-3xl font-medium">
+                  Business Turnaround from a Legacy Low-Margin Portfolio to a
+                  Premium, Profitable Model
                 </p>
               </div>
             </div>
@@ -46,37 +47,41 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Company</h3>
-                    <p>A Medium Sized MNC</p>
+                    <h3 className="text-xl">Company</h3>
+                    <p className="text-xl">A Medium Sized MNC</p>
                   </div>
                   <div>
-                     <Image
+                    <Image
                       src="/assests/casestudies/sector.png"
                       className=""
                       width={1000}
                       height={1000}
                       alt=""
                     />
-                    <h3>Sector</h3>
-                    <p>FMCG Food</p>
+                    <h3 className="text-xl">Sector</h3>
+                    <p className="text-xl">FMCG Food</p>
                   </div>
                   <div>
-                     <Image
+                    <Image
                       src="/assests/casestudies/project.png"
                       className=""
                       width={1000}
                       height={1000}
                       alt=""
                     />
-                    <h3>Project</h3>
-                    <p>
-                      Rebuilding growth DNA — from volume push to value-led profitability
+                    <h3 className="text-xl">Project</h3>
+                    <p className="text-xl">
+                      Rebuilding growth DNA — from volume push to value-led
+                      profitability
                     </p>
                   </div>
                 </div>
 
-                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[15px] font-medium mt-7 rounded-md">A mid sized fmcg company operated in low margin portfolio which was rural focused and needed a rtm ready to handle urban centric premium portfolio</p>
-
+                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[16px] font-bold mt-7 rounded-md">
+                  A mid sized fmcg company operated in low margin portfolio
+                  which was rural focused and needed a rtm ready to handle urban
+                  centric premium portfolio
+                </p>
               </div>
             </div>
           </div>

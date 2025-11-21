@@ -26,7 +26,7 @@ export default function Second() {
                   className="py-5"
                 />
                 <div className="text-center text-lg font-bold text-[var(--dgreen)]">connect@leapbridgeconsulting.com</div>
-                <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div>
+                {/* <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div> */}
               </a>
               <a
                 href="tel:+91-91670 63112"
@@ -40,7 +40,7 @@ export default function Second() {
                   className="py-5"
                 />
                 <div className="text-center text-lg font-bold text-[var(--dgreen)]">+91-91670 63112</div>
-                <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div>
+                {/* <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div> */}
               </a>
 
               <a
@@ -55,7 +55,7 @@ export default function Second() {
                   className="py-5"
                 />
                 <div className="text-center text-lg font-bold text-[var(--dgreen)]">+91 97691 00915</div>
-                <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div>
+                {/* <div className="text-center text-lg">Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl.</div> */}
               </a>
             </div>
             <h2 className="text-[40px] text-[var(--dgreen)] text-center mb-6">or fill in the form</h2>

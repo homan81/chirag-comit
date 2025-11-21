@@ -548,7 +548,7 @@ export default function Second() {
 
                   <div>
                     <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
-                      Sunil Taldar
+                      Vinod 
                     </h4>
                     <p className=" text-[var(--dgreen)]">
                       MD & CEO Airtel Africa PLC

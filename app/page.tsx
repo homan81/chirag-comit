@@ -13,6 +13,7 @@ import Aboutus from "./components/homepage/Aboutus";
 import Grid from "./components/homepage/grid";
 import Second from "./components/homepage/Second";
 import Testimoials from "./components/homepage/Testimonials";
+import SplashScreen from "./components/SplashScreen";
 
 export default function Home() {
   return (
@@ -32,10 +33,19 @@ export default function Home() {
       <div className="container mx-auto border-b border-1 border-[#787878] border-dashed"></div>
       <ProblemSolv />
       <GreatResult />
+      <Testimoials />
       <ScrumPage />
       {/* <ConsultationCTA /> */}
       {/* <GoodInsights /> */}
-      <Testimoials />
+
+      <div className="relative">
+        <SplashScreen />
+
+        <div className="p-10 text-2xl">
+          <h1 className="text-blue-600 font-bold">Welcome to the website!</h1>
+          <p>Your content loads after splash screen ends.</p>
+        </div>
+      </div>
     </>
   );
 }

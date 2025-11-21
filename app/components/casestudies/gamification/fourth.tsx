@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>A leading FMCG foods company was launching a premium-priced brand extension in the mass biscuits category, leveraging strong equity from its high share niche mother brand. While the parent brand was dominant in modern trade and e-commerce, it lacked visibility in mass retail and general trade. The challenge was to rapidly drive placement and distribution across the company’s extensive network, overcome field skepticism about premium pricing, and ensure strong early acceptance in a competitive category.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">A leading FMCG foods company was launching a premium-priced brand extension in the mass biscuits category, leveraging strong equity from its high share niche mother brand. While the parent brand was dominant in modern trade and e-commerce, it lacked visibility in mass retail and general trade. The challenge was to rapidly drive placement and distribution across the company’s extensive network, overcome field skepticism about premium pricing, and ensure strong early acceptance in a competitive category.</p>
               </div>
               
             </div>

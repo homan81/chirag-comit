@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>In 2018, e-commerce was still nascent within the FMCG landscape. In this company, the channel contributed less than 0.5% of total sales, lacked clear accountability, and had no defined growth roadmap. There were no differentiated portfolio strategies for online platforms, and profitability concerns limited investments due to channel conflict with general trade. The organization needed a comprehensive blueprint to structure, scale, and integrate e-commerce as a strategic growth channel.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">In 2018, e-commerce was still nascent within the FMCG landscape. In this company, the channel contributed less than 0.5% of total sales, lacked clear accountability, and had no defined growth roadmap. There were no differentiated portfolio strategies for online platforms, and profitability concerns limited investments due to channel conflict with general trade. The organization needed a comprehensive blueprint to structure, scale, and integrate e-commerce as a strategic growth channel.</p>
               </div>
               
             </div>

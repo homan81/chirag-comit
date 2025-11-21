@@ -25,7 +25,7 @@ export default function Third() {
                 </h2>
               </div>
               <div>
-                <p className="text-white text-4xl font-medium">
+                <p className="text-white text-3xl font-medium">
                   <strong>
                   Pharma-to-FMCG Transformation
                   </strong>

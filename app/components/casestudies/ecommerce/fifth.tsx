@@ -33,8 +33,8 @@ export default function Fifth() {
                 </div>
               </div>
               <div className="*:text-[var(--dgreen)] 2xl:max-w-[720px] xl:max-w-[630px] lg:max-w-[500px]  md:mr-auto">
-                <h2 className="text-2xl font-bold mb-3">OUR APPROACH</h2>
-                <p className=" mb-3">
+                <h2 className="text-3xl font-bold mb-3">OUR APPROACH</h2>
+                <p className="text-xl mb-3">
                   As Head of Alternate Channels, I led the design and execution of a two-year transformation plan to build a sustainable e-commerce business.
 
                 </p>

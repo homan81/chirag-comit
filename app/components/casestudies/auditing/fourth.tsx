@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>A leading FMCG food company was launching a cold-chain-dependent category, a first of its kind within the organization. Ninety-eight percent of the sales team had no prior experience managing cold-chain products, and only a handful of leaders had worked in the category before. Beyond building infrastructure and training, the biggest challenge was identifying the “right store” — outlets with the necessary infrastructure, brand affinity, and category potential. Incorrect placement could lead to high spoilage, cancellations, and erosion of early consumer trust.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">A leading FMCG food company was launching a cold-chain-dependent category, a first of its kind within the organization. Ninety-eight percent of the sales team had no prior experience managing cold-chain products, and only a handful of leaders had worked in the category before. Beyond building infrastructure and training, the biggest challenge was identifying the “right store” — outlets with the necessary infrastructure, brand affinity, and category potential. Incorrect placement could lead to high spoilage, cancellations, and erosion of early consumer trust.</p>
               </div>
               
             </div>

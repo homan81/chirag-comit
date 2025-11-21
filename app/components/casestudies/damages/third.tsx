@@ -25,7 +25,7 @@ export default function Third() {
                 </h2>
               </div>
               <div>
-                <p className="text-white text-lg font-medium">
+                <p className="text-white text-3xl font-medium">
                   Damages & Market Returns Optimization
                 </p>
               </div>
@@ -46,8 +46,8 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Company</h3>
-                    <p>Mid Sized MNC</p>
+                    <h3 className="text-xl">Company</h3>
+                    <p className="text-xl">Mid Sized MNC</p>
                   </div>
                   <div>
                      <Image
@@ -57,8 +57,8 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Sector</h3>
-                    <p>FMCG Foods</p>
+                    <h3 className="text-xl">Sector</h3>
+                    <p className="text-xl">FMCG Foods</p>
                   </div>
                   <div>
                      <Image
@@ -68,14 +68,14 @@ export default function Third() {
                       height={1000}
                       alt=""
                     />
-                    <h3>Project</h3>
-                    <p>
+                    <h3 className="text-xl">Project</h3>
+                    <p className="text-xl">
                       From waste to value
                     </p>
                   </div>
                 </div>
 
-                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[15px] font-medium mt-7 rounded-md">The company wanted to drastically reduce damaged and write-offs and build and strengthen controls through analytics and process discipline.</p>
+                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[16px] font-bold mt-7 rounded-md">The company wanted to drastically reduce damaged and write-offs and build and strengthen controls through analytics and process discipline.</p>
 
               </div>
             </div>

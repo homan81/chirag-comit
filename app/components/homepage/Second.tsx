@@ -14,8 +14,8 @@ export default function Second() {
               <div className="md:flex w-full items-stretch gap-7">
                 <div className="md:w-[20%] lg:order-2">
                   <Image
-                    src="/assests/header/images/Jatin-Panchal.jpg"
-                    className="w-full h-auto"
+                    src="/assests/header/images/Jatin-Panchal.png"
+                    className="w-full h-auto rounded-xl"
                     width={1000}
                     height={1000}
                     alt=""

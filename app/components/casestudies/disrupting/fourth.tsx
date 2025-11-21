@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>For two leading FMCG companies with diverse portfolios, rural expansion was identified as a strategic growth bet. Despite strong brand equity, rural distribution relied on conventional population-based clustering models that created coverage overlaps, high costs, and limited visibility of true market potential. Rural expansion is inherently capital- and manpower-intensive, posing challenges around network optimization, cost-to-serve, and effective measurement of coverage productivity. The mandate was to rapidly expand rural footprint while improving ROI, quality of coverage, and sales velocity.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">For two leading FMCG companies with diverse portfolios, rural expansion was identified as a strategic growth bet. Despite strong brand equity, rural distribution relied on conventional population-based clustering models that created coverage overlaps, high costs, and limited visibility of true market potential. Rural expansion is inherently capital- and manpower-intensive, posing challenges around network optimization, cost-to-serve, and effective measurement of coverage productivity. The mandate was to rapidly expand rural footprint while improving ROI, quality of coverage, and sales velocity.</p>
               </div>
               
             </div>

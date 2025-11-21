@@ -29,8 +29,8 @@ export default function Fourth() {
                 />
               </div>
               <div className="*:text-[var(--dgreen)]">
-                <h2 className="text-2xl font-bold mb-3">COMPANY CHALLENGES</h2>
-                <p>The company was operating with trade spends exceeding 6.5% of revenue, constraining its ability to reinvest behind consumer demand and marketing initiatives. The spend structure had evolved without clear ROI benchmarks and varied widely across channels and geographies. With profitability under pressure, the need was to rationalize trade investments while maintaining competitive presence and growth momentum.</p>
+                <h2 className="text-3xl font-bold mb-3">COMPANY CHALLENGES</h2>
+                <p className="text-xl">The company was operating with trade spends exceeding 6.5% of revenue, constraining its ability to reinvest behind consumer demand and marketing initiatives. The spend structure had evolved without clear ROI benchmarks and varied widely across channels and geographies. With profitability under pressure, the need was to rationalize trade investments while maintaining competitive presence and growth momentum.</p>
               </div>
               
             </div>

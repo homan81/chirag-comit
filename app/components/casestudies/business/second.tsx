@@ -21,14 +21,14 @@ export default function Second() {
   const link11 = useInView({ threshold: 0.8 });
   return (
     <>
-      <section>
+      <section id="secondtsx" className="scroll-mt-28">
         <div className="">
           <div className="container mx-auto px-5 py-10">
             <div className="mb-10">
               <h1
                 ref={heading.ref}
                 className={`fade-up ${heading.isVisible ? "show" : ""
-                  } text-3xl font-bold text-[var(--dgreen)] text-center mb-5`}
+                  } text-4xl font-bold text-[var(--dgreen)] text-center mb-5`}
               >
                 Notable Work Done
               </h1>
