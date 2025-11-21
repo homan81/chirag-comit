@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Top Section */}
           <div
             id="contact"
-            className=" container mx-auto px-4   py-10 grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-10"
+            className=" container mx-auto px-0 sm:px-4  py-10 grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-10"
           >
             {/* Logo */}
             <div className="flex flex-col items-start sm:border-r lg:border-r-0 border-dotted border-[#356E54]">
@@ -67,7 +67,6 @@ export default function Footer() {
 
             {/* Navigation Links */}
             <div className="flex flex-col space-y-2 lg:border-r *:text-xl border-dotted border-[#356E54]">
-             
                 <Link
                   href="/home"
                   className={`hover:text-[#53FFA9] transition ${
@@ -184,7 +183,7 @@ export default function Footer() {
                 href="mailto:connect@leapbridgeconsulting.com"
                 className="text-sm hover:text-[#9BE3B3] transition"
               >
-                connect@leapbridgeconsulting.com
+                {/* connect@leapbridgeconsulting.com */}
               </a>
               <div className="flex space-x-3 mt-2">
                 <Link href="https://www.linkedin.com" target="_blank">
@@ -217,7 +216,7 @@ export default function Footer() {
       </footer>
 
       {/* Scroll to Top Button */}
-      <button
+      {/* <button
         id="scrollTopBtn"
         onClick={scrollToTop}
         className="fixed bottom-6 right-6 bg-white border-2 border-[#234C3A] text-[#234C3A] rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-[#9BE3B3] hover:text-[#18392B] transition opacity-0 pointer-events-none"
@@ -236,7 +235,7 @@ export default function Footer() {
             d="M5 15l7-7 7 7"
           />
         </svg>
-      </button>
+      </button> */}
     </>
   );
 }

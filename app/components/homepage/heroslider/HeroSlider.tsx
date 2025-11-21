@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Carousel() {
   const totalSlides = 6; // You have 5 slides
@@ -23,97 +24,100 @@ export default function Carousel() {
       >
         {/* Slide 1 */}
         <div className="min-w-full relative">
-          <img
-            src="/assests/header/images/herobanner/slide1.jpg"
-            alt="Slide One"
-            className="w-full h-full object-cover"
+          <Image
+            src="/assests/header/images/herobanner/Large-mncs.jpg"
+            className="object-cover"
+            width={1000}
+            height={1000}
+            alt=""
           />
+
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.5)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
             <h3>Large MNCs</h3>
-            <p>
-             Global scale, structured systems, and complex decision networks.
-            </p>
+            {/* <p>
+              Global scale, structured systems, and complex decision networks.
+            </p> */}
           </div>
         </div>
 
         {/* Slide 2 */}
         <div className="min-w-full relative">
-          <img
-            src="/assests/header/images/herobanner/slide2.png"
-            alt="Slide One"
-            className="w-full h-full object-cover"
+          <Image
+            src="/assests/header/images/herobanner/Small-mindmnc.jpg"
+            className="object-cover"
+            width={1000}
+            height={1000}
+            alt=""
           />
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.7)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
             <h3>Small & Mid MNCs</h3>
-            <p>
+            {/* <p>
               Agile setups balancing global best practices with local agility.
-            </p>
+            </p> */}
           </div>
         </div>
 
         {/* Slide 3 */}
         <div className="min-w-full relative">
-          <img
-            src="/assests/header/images/herobanner/slide3.png"
-            alt="Slide One"
-            className="w-full h-full object-cover"
+          <Image
+            src="/assests/header/images/herobanner/IndianMNCs.jpg"
+            className="object-cover"
+            width={1000}
+            height={1000}
+            alt=""
           />
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.7)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
-            <h3>
-              Indian MNCs
-            </h3>
-            <p>
-              Indian agility fused with international scale and ambition.
-            </p>
+            <h3>Indian MNCs</h3>
+            {/* <p>Indian agility fused with international scale and ambition.</p> */}
           </div>
         </div>
-        {/* Slide 2 */}
+        {/* Slide 4 */}
         <div className="min-w-full relative">
-          <img
-            src="/assests/header/images/herobanner/slide2.png"
-            alt="Slide One"
-            className="w-full h-full object-cover"
+          <Image
+            src="/assests/header/images/herobanner/Familybussiness.jpg"
+            className="object-cover"
+            width={1000}
+            height={1000}
+            alt=""
           />
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.7)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
             <h3>Family run bussiness</h3>
-            <p>
+            {/* <p>
               Legacy enterprises evolving toward process & governance maturity.
-            </p>
+            </p> */}
           </div>
         </div>
 
-        {/* Slide 3 */}
+        {/* Slide 5 */}
         <div className="min-w-full relative">
-          <img
-            src="/assests/header/images/herobanner/slide3.png"
-            alt="Slide One"
-            className="w-full h-full object-cover"
+          <Image
+            src="/assests/header/images/herobanner/Large-mncs.jpg"
+            className="object-cover"
+            width={1000}
+            height={1000}
+            alt=""
           />
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.7)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
-            <h3>
-              PE-Backed Firms
-            </h3>
-            <p>
-              Outcome-driven, milestone-led transformation mandates
-            </p>
+            <h3>PE-Backed Firms</h3>
+            {/* <p>Outcome-driven, milestone-led transformation mandates</p> */}
           </div>
         </div>
 
-        {/* Slide 3 */}
+        {/* Slide 6 */}
         <div className="min-w-full relative">
-          <img
-            src="/assests/header/images/herobanner/slide3.png"
-            alt="Slide One"
-            className="w-full h-full object-cover"
+          <Image
+            src="/assests/header/images/herobanner/Pharma.jpg"
+            className="object-cover"
+            width={1000}
+            height={1000}
+            alt=""
           />
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.7)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
-            <h3>
-              Pharma OTC
-            </h3>
-            <p>
-              Transitioning from prescription-led to consumer-centric business models.
-
-            </p>
+            <h3>Pharma OTC</h3>
+            {/* <p>
+              Transitioning from prescription-led to consumer-centric business
+              models.
+            </p> */}
           </div>
         </div>
       </div>

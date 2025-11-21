@@ -41,10 +41,10 @@ export default function Home() {
       <div className="relative">
         <SplashScreen />
 
-        <div className="p-10 text-2xl">
+        {/* <div className="p-10 text-2xl">
           <h1 className="text-blue-600 font-bold">Welcome to the website!</h1>
           <p>Your content loads after splash screen ends.</p>
-        </div>
+        </div> */}
       </div>
     </>
   );

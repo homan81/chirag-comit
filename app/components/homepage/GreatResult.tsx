@@ -25,8 +25,8 @@ export default function GreatResult() {
               isVisible ? "show" : ""
             } text-[35px] font-normal leading-snug mb-4`}
           >
-            We don’t just advise, we co-create, build capability, and stay
-            accountable for outcomes.
+            We don’t just advice, we co create , build capability, and help
+            deliver sustainable growths.
           </h2>
           {/* <div
             ref={ref}

@@ -6,27 +6,6 @@ import useInView from "@/app/hooks/useInView";
 
 const MainBanner: React.FC = () => {
   const { ref, isVisible } = useInView({ threshold: 0.2 });
-  // useEffect(() => {
-  //   import("scrollreveal").then((ScrollRevealModule) => {
-  //     const ScrollReveal = ScrollRevealModule.default;
-  //     ScrollReveal().reveal(".heading-home h1", {
-  //       origin: "bottom",
-  //       distance: "100px",
-  //       duration: 800,
-  //       delay: 100,
-  //       easing: "ease-out",
-  //       reset: false,
-  //     });
-  //     ScrollReveal().reveal(".heading-home p", {
-  //       origin: "bottom",
-  //       distance: "100px",
-  //       duration: 800,
-  //       delay: 500,
-  //       easing: "ease-out",
-  //       reset: false,
-  //     });
-  //   });
-  // }, []);
 
   return (
     <div className="relative w-full  overflow-hidden">
@@ -36,18 +15,12 @@ const MainBanner: React.FC = () => {
         title="Background Video"
         allow="autoplay; encrypted-media"
       ></iframe>
-      {/* <div className="absolute inset-0 bg-[#1a3d3d]/80 z-10"></div> */}
       <div className="absolute inset-0 bg-[var(--dgreen)]/80 z-10"></div>
 
-      {/* Your content over video */}
+
       <div className="relative z-10 text-white">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="container mx-auto px-4">
-            {/* <div className="flex space-x-3 justify-center my-12">
-              <span className="w-8 h-8 rounded-full bg-[#CEEAD54D]"></span>
-              <span className="w-[52px] h-8 rounded-[40px] bg-[#CEEAD5]"></span>
-              <span className="w-8 h-8 rounded-full bg-[#CEEAD54D]"></span>
-            </div> */}
 
             <div
               ref={ref}
@@ -64,14 +37,14 @@ const MainBanner: React.FC = () => {
                 className={`bar w-[52px] rounded-[40px] bg-[#7BBD93] ${
                   isVisible ? "animate" : ""
                 }`}
-                style={{ transitionDelay: "0.8s" }} // slight stagger
+                style={{ transitionDelay: "0.8s" }}
               ></span>
 
               <span
                 className={`bar w-[30px] rounded-full bg-[var(--lgreen2)] ${
                   isVisible ? "animate" : ""
                 }`}
-                style={{ transitionDelay: "1s" }} // delayed third
+                style={{ transitionDelay: "1s" }}
               ></span>
             </div>
           </div>
@@ -87,15 +60,6 @@ const MainBanner: React.FC = () => {
             </h1>
           </div>
 
-          {/* <div className="mainbanner max-w-[1100px] w-full">
-            <Image
-              src="/assests/header/images/mainimg.webp"
-              alt="Logo"
-              width={1000}
-              height={1000}
-              className="banner-pic border-[20px] md:border-[50px] border-white border-b-0"
-            />
-          </div> */}
         </div>
       </div>
       <div

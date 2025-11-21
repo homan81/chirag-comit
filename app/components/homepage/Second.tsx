@@ -28,7 +28,16 @@ export default function Second() {
                     MBA: SIBM Exec MBA: INSEAD, France
                   </p>
                   <p className="text-xl">
-                    A commercial transformation leader with over 25 years of experience in FMCG & consumer healthcare, driving growth, reach, & sales excellence across channels. Jatin has successfully led the transition of healthcare & pharma portfolios into consumer-facing FMCG businesses. Expertise in building new businesses, including ecom for FMCG firms, he blends analytical precision with people-centric leadership. He excels in designing transformative go-to-market strategies, building capable teams, & unlocking business momentum through insight-led execution.
+                    A commercial transformation leader with over 25 years of
+                    experience in FMCG & consumer healthcare, driving growth,
+                    reach, & sales excellence across channels. Jatin has
+                    successfully led the transition of healthcare & pharma
+                    portfolios into consumer-facing FMCG businesses. Expertise
+                    in building new businesses, including ecom for FMCG firms,
+                    he blends analytical precision with people-centric
+                    leadership. He excels in designing transformative
+                    go-to-market strategies, building capable teams, & unlocking
+                    business momentum through insight-led execution.
                   </p>
                 </div>
               </div>
@@ -38,7 +47,7 @@ export default function Second() {
                 <div className="md:w-[20%]">
                   <Image
                     src="/assests/header/images/Vinod-Rao.jpg"
-                    className="lg:h-full md:max-w-full max-w-[400px]"
+                    className="w-full h-auto"
                     width={1000}
                     height={1000}
                     alt=""
@@ -49,7 +58,15 @@ export default function Second() {
                   <p className="text-xl font-medium">Founder & Partner</p>
                   <p className="text-xl mb-3">MBA: JBIMS</p>
                   <p className="text-xl">
-                    A seasoned P&L leader with over 30 years of experience across FMCG, healthcare, and retail banking. Vinod has led business turnarounds and large scale distribution expansions, earning a reputation for translating strategy into seamless execution. He brings deep expertise in sales transformation, category growth, channel management, and trade excellence, along with hands-on experience in cold chain infrastructure and operating within both family-run and PE-backed promoter environments.
+                    A seasoned P&L leader with over 30 years of experience
+                    across FMCG, healthcare, and retail banking. Vinod has led
+                    business turnarounds and large scale distribution
+                    expansions, earning a reputation for translating strategy
+                    into seamless execution. He brings deep expertise in sales
+                    transformation, category growth, channel management, and
+                    trade excellence, along with hands-on experience in cold
+                    chain infrastructure and operating within both family-run
+                    and PE-backed promoter environments.
                   </p>
                 </div>
               </div>
