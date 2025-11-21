@@ -183,7 +183,7 @@ export default function Footer() {
                 href="mailto:connect@leapbridgeconsulting.com"
                 className="text-sm hover:text-[#9BE3B3] transition"
               >
-                {/* connect@leapbridgeconsulting.com */}
+                connect@leapbridgeconsulting.com
               </a>
               <div className="flex space-x-3 mt-2">
                 <Link href="https://www.linkedin.com" target="_blank">
