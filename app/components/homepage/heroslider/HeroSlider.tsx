@@ -16,10 +16,10 @@ export default function Carousel() {
   }, [current]);
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-full border-[35px] border-[var(--lgreen)]">
+    <div className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-full border-md-[35px] border-[25px] border-[var(--lgreen)]">
       {/* Slider Track */}
       <div
-        className="flex transition-transform duration-700  [&_h3]:mb-3 [&_h3]:text-4xl [&_h3]:font-semibold [&_p]:px-16 [&_p]:text-2xl "
+        className="flex transition-transform duration-700 [&_h3]:mb-3 [&_h3]:md:text-4xl [&_h3]:text-3xl [&_h3]:max-w-[250px] [&_h3]:font-semibold [&_p]:px-16 [&_p]:text-2xl "
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {/* Slide 1 */}
@@ -137,7 +137,7 @@ export default function Carousel() {
       </button> */}
 
       {/* Dots */}
-      <div className="absolute top-[45%] w-full flex justify-center gap-2  translate-y-[50%]">
+      <div className="absolute top-[45%] w-full md:flex hidden justify-center gap-2  translate-y-[50%]">
         {[0, 1, 2, 3, 4, 5].map((index) => (
           <span
             key={index}

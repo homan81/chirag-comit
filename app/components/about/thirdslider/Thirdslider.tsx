@@ -12,13 +12,13 @@ export default function Carousel() {
   const prevSlide = () => setCurrent((prev) => (prev === 0 ? 2 : prev - 1));
 
   // ✅ Auto Slide Effect
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 4000); // Change slide every 4 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     nextSlide();
+  //   }, 4000); // Change slide every 4 seconds
 
-    return () => clearInterval(interval); // cleanup
-  }, [current]); // or use [] to make it constant interval
+  //   return () => clearInterval(interval); // cleanup
+  // }, [current]); // or use [] to make it constant interval
 
   return (
     <div className="w-full mx-auto overflow-hidden">
@@ -26,7 +26,7 @@ export default function Carousel() {
         ref={heading.ref}
         className={`fade-up ${heading.isVisible ? "show" : ""} mb-8`}
       >
-        <h2 className="text-white text-[60px] leading-22">
+        <h2 className="text-white md:text-[60px] text-4xl font-semibold md:leading-22 leading-12">
           Purpose. Path. Principles.
         </h2>
       </div>
@@ -37,8 +37,8 @@ export default function Carousel() {
         >
           <div className="min-w-full  relative grid lg:grid-cols-2 grid-cols-1 gap-8 lg:items-stretch *:px-2">
             <div className="">
-              <div className="bg-[var(--lgreen3)] rounded-[30px] rounded-tl-[180px] p-12 pt-16  pe-14 flex flex-col justify-end h-full">
-                <h3 className="text-[80px] text-[var(--dgreen)] ">Vision</h3>
+              <div className="bg-[var(--lgreen3)] rounded-[30px] md:rounded-tl-[180px] rounded-tl-[100px] md:p-12 px-5 py-8 pt-16 md:pe-14 flex flex-col justify-end h-full">
+                <h3 className="md:text-[80px] text-6xl text-[var(--dgreen)] ">Vision</h3>
                 <div className="bg-[var(--dgreen)] h-[1px] w-full mb-5"></div>
                 <p className="text-lg">
                   To be the most trusted partner for consumer brands seeking
@@ -59,8 +59,8 @@ export default function Carousel() {
           </div>
           <div className="min-w-full relative grid lg:grid-cols-2 grid-cols-1 gap-8 lg:items-stretch *:px-2">
             <div className="">
-              <div className="bg-[var(--lgreen3)] rounded-[30px] rounded-tl-[180px]  p-12 pt-16  pe-14 flex flex-col justify-end h-full">
-                <h3 className="text-[80px] text-[var(--dgreen)] ">Mission</h3>
+              <div className="bg-[var(--lgreen3)] rounded-[30px] md:rounded-tl-[180px] rounded-tl-[100px] md:p-12 px-5 py-8 pt-16 md:pe-14 flex flex-col justify-end h-full">
+                <h3 className="md:text-[80px] text-6xl text-[var(--dgreen)] ">Mission</h3>
                 <div className="bg-[var(--dgreen)] h-[1px] w-full mb-5"></div>
                 <p className="text-lg">
                   To help consumer brands achieve profitable growth by designing
@@ -81,8 +81,8 @@ export default function Carousel() {
           </div>
           <div className="min-w-full relative grid lg:grid-cols-2 grid-cols-1 gap-8 lg:items-stretch *:px-2">
             <div className="">
-              <div className="bg-[var(--lgreen3)] rounded-[30px] rounded-tl-[180px]  p-12 pt-16 pe-14  flex flex-col justify-end h-full">
-                <h3 className="text-[80px] text-[var(--dgreen)] ">Values</h3>
+              <div className="bg-[var(--lgreen3)] rounded-[30px] md:rounded-tl-[180px] rounded-tl-[100px] md:p-12 px-5 py-8 pt-16 md:pe-14 flex flex-col justify-end h-full">
+                <h3 className="md:text-[80px] text-6xl text-[var(--dgreen)] ">Values</h3>
                 <div className="bg-[var(--dgreen)] h-[1px] w-full mb-5"></div>
                 <p className="text-lg">
                   <strong>-</strong> Impact Over Activity <br />

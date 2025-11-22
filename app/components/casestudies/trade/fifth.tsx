@@ -18,7 +18,7 @@ export default function Fifth() {
       <section>
         <div className="bg-white">
           <div className=" py-10">
-            <div className="flex w-full *:w-1/2 gap-5 items-center">
+            <div className="flex md:flex-row flex-col w-full *:md:w-1/2 gap-5 items-center">
               <div className="pr-10">
                 <div className="bg-[var(--lgreen2)] rounded-tr-full rounded-br-full">
                   <div className="md:p-7 2xl:max-w-[720px] xl:max-w-[630px] lg:max-w-[500px] md:ml-auto">
@@ -32,7 +32,7 @@ export default function Fifth() {
                   </div>
                 </div>
               </div>
-              <div className="*:text-[var(--dgreen)] 2xl:max-w-[720px] xl:max-w-[630px] lg:max-w-[500px]  md:mr-auto">
+              <div className="*:text-[var(--dgreen)] 2xl:max-w-[720px] xl:max-w-[630px] lg:max-w-[500px]  md:mr-auto  md:px-0 px-5">
                 <h2 className="text-3xl font-bold mb-3">OUR APPROACH</h2>
                 <p className="text-xl mb-3">
                   As Director of Sales, led an initiative with Trade Marketing & Finance to overhaul trade investment management and embed Performance & Revenue Growth Management (PRGM) discipline.

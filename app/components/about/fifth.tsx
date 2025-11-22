@@ -13,14 +13,14 @@ export default function Fifth() {
       <section>
         <div className="bg-[#d9e6dc]">
           <div className="container mx-auto px-5 py-15">
-            <div className="md:flex items-center gap-16 *:w-1/2">
+            <div className="md:flex items-center gap-16 *:md:w-1/2">
               <div>
                 <div className="h-full flex flex-col justify-center md:pr-12">
                   <h2
                     ref={heading.ref}
                     className={`fade-up ${
                       heading.isVisible ? "show" : ""
-                    } text-[60px] lg:mb-12 mb-5 text-[var(--dgreen)] leading-18`}
+                    } md:text-[60px] text-4xl lg:mb-12 mb-5 text-[var(--dgreen)] md:leading-18 md:max-w-full max-w-[300px]`}
                   >
                     Our Approach to <strong>Create Value</strong>
                   </h2>
@@ -29,18 +29,16 @@ export default function Fifth() {
                     ref={heading.ref}
                     className={`fade-up ${
                       heading.isVisible ? "show" : ""
-                    } text-xl text-[var(--dgreen)] font-medium`}
+                    } md:text-xl text-lg text-[var(--dgreen)] font-medium`}
                   >
-                    We operate on a fractional leadership and project-based
+                    <span className="mb-5 block">We operate on a fractional leadership and project-based
                     model, enabling clients to access senior industry expertise
-                    without long-term overheads.
-                    <br />
-                    <br />
-                    At LeapBridge, we believe in bridging the gap between
+                    without long-term overheads.</span>
+                    <span>At LeapBridge, we believe in bridging the gap between
                     Organisation Strategy &amp; On ground Execution. Our
                     approach blends data-backed analytics with field-tested
                     pragmatism, ensuring every recommendation can be executed
-                    and sustained on ground.
+                    and sustained on ground.</span>
                   </p>
 
                   {/* <Link
@@ -52,7 +50,7 @@ export default function Fifth() {
                 </div>
               </div>
 
-              <div className="lg:p-22 p-12">
+              <div className="lg:p-22 p-12 md:pb-12 pb-0">
                 <Image
                   src="/assests/about/create-value.png"
                   className="w-full h-auto object-contain block"

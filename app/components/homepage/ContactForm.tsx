@@ -1,8 +1,8 @@
-import Image from "next/image";
+// import Image from "next/image";
 export default function ContactForm() {
   return (
     <>
-      <form className="space-y-2 max-w-md p-7 mx-auto">
+      <form className="space-y-2 max-w-md md:p-7 py-5 mx-auto">
         <input
           type="text"
           placeholder="Name"

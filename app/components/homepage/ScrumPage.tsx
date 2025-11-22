@@ -8,7 +8,7 @@ export default function ScrumPage() {
     <section className="w-full bg-[var(--lgreen2)] py-16">
       <div className="container mx-auto px-6 text-[#1B3233]">
         {/* Title */}
-        <h2 className="text-7xl font-normal text-center mb-8">
+        <h2 className="md:text-7xl text-5xl font-normal text-center mb-8">
           Let&apos;s Talk
         </h2>
 
@@ -66,6 +66,7 @@ export default function ScrumPage() {
                   alt="Mail Icon"
                   width={24}
                   height={24}
+                  className="md:flex hidden"
                 />
                 <div>connect@leapbridgeconsulting.com</div>
               </a>

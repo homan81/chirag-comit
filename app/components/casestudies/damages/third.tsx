@@ -18,14 +18,14 @@ export default function Third() {
       <section>
         <div className="bg-[var(--dgreen)]">
           <div className="container mx-auto px-5 py-10">
-            <div className="mb-25 flex justify-center gap-14 items-center">
+           <div className="mb-25 flex md:flex-row flex-col md:text-start text-center justify-center md:gap-14 gap-5 items-center">
               <div>
                 <h2 className="text-4xl text-white">
                   <strong>Case</strong> Study
                 </h2>
               </div>
               <div>
-                <p className="text-white text-3xl font-medium">
+                <p className="text-white md:text-3xl text-2xl font-medium">
                   Damages & Market Returns Optimization
                 </p>
               </div>
@@ -37,7 +37,7 @@ export default function Third() {
           <div className="container mx-auto px-5 pb-10">
             <div className=" border border-[#AEAEAE] bg-white rounded-lg lg:py-8 lg:px-20 p-5 -mt-[100px] shadow-[0_0_13px_#00000052]">
               <div className="max-w-[1100px] mx-auto">
-                <div className="flex justify-between w-full text-center px-5 *:max-w-[300px] [&_p]:text-[var(--dgreen)] [&_h3]:text-[var(--dgreen)] [&_h3]:font-semibold [&_img]:max-w-[90px] [&_img]:mb-3 [&_img]:h-auto [&_img]:mx-auto">
+                <div className="flex md:flex-row flex-col md:gap-0 gap-5 justify-between w-full text-center px-5 *:max-w-[300px] *:mx-auto [&_p]:text-[var(--dgreen)] [&_h3]:text-[var(--dgreen)] [&_h3]:font-semibold [&_img]:max-w-[90px] [&_img]:mb-3 [&_img]:h-auto [&_img]:mx-auto">
                   <div>
                     <Image
                       src="/assests/casestudies/company.png"
@@ -75,7 +75,7 @@ export default function Third() {
                   </div>
                 </div>
 
-                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white text-center text-[16px] font-bold mt-7 rounded-md">The company wanted to drastically reduce damaged and write-offs and build and strengthen controls through analytics and process discipline.</p>
+                <p className="md:px-9 p-3  bg-[var(--dgreen2)] text-white text-center text-[16px] font-medium mt-7 rounded-md">The company wanted to drastically reduce damaged and write-offs and build and strengthen controls through analytics and process discipline.</p>
 
               </div>
             </div>

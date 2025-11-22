@@ -55,7 +55,7 @@ export default function Carousel() {
 
   return (
     <div
-      className="relative w-full container px-5 mx-auto overflow-hidden"
+      className="relative w-full container md:px-5 mx-auto overflow-hidden"
       ref={carouselRef}
       onMouseDown={handleTouchStart}
       onMouseMove={handleTouchMove}
@@ -101,10 +101,10 @@ export default function Carousel() {
                     <i className="fa fa-star" aria-hidden="true"></i>
                     <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
-                  <div className="relative px-[50px] pb-[25px]">
+                  <div className="relative md:px-[50px] px-[20px] pb-[25px]">
                     <Image
                       src="/assests/testimonials/colon-start.svg"
-                      className="w-10 h-10 absolute -top-[25px] left-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute -top-[25px] left-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -121,7 +121,7 @@ export default function Carousel() {
                     </p>
                     <Image
                       src="/assests/testimonials/colon-end.svg"
-                      className="w-10 h-10 absolute bottom-0 right-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute bottom-0 right-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -162,10 +162,10 @@ export default function Carousel() {
                     <i className="fa fa-star" aria-hidden="true"></i>
                     <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
-                  <div className="relative px-[50px] pb-[25px]">
+                  <div className="relative md:px-[50px] px-[20px] pb-[25px]">
                     <Image
                       src="/assests/testimonials/colon-start.svg"
-                      className="w-10 h-10 absolute -top-[25px] left-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute -top-[25px] left-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -178,22 +178,11 @@ export default function Carousel() {
                       excellence. His ability to leverage data, technology, and
                       analytics has been instrumental in developing models that
                       provide actionable insights—helping us identify upsell and
-                      cross-sell opportunities, enhance revenue productivity,
-                      and improve trade performance across markets. Vinod has
-                      also led important initiatives around trade optimization
-                      and cost efficiency, simplifying channel operations and
-                      ensuring better utilization of resources to strengthen
-                      ROI. Equally noteworthy is his contribution to our rural
-                      growth agenda, where he used spatial mapping and potential
-                      estimation to identify new opportunities and guide focused
-                      market expansion. Through his data-driven thinking, strong
-                      execution, and balanced focus on sustainable growth, Vinod
-                      has built a solid foundation that will continue to support
-                      our business momentum and market leadership.
+                      cross-sell opportunities, enhance revenue productivity,...
                     </p>
                     <Image
                       src="/assests/testimonials/colon-end.svg"
-                      className="w-10 h-10 absolute bottom-0 right-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute bottom-0 right-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -234,10 +223,10 @@ export default function Carousel() {
                     <i className="fa fa-star" aria-hidden="true"></i>
                     <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
-                  <div className="relative px-[50px] pb-[25px]">
+                  <div className="relative md:px-[50px] px-[20px] pb-[25px]">
                     <Image
                       src="/assests/testimonials/colon-start.svg"
-                      className="w-10 h-10 absolute -top-[25px] left-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute -top-[25px] left-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -251,15 +240,11 @@ export default function Carousel() {
                       distinguishes him is his ability to simplify complexity —
                       connecting strategic vision with market reality. Deeply
                       collaborative and grounded, Jatin works as a true partner,
-                      building trust, energising teams, and turning plans into
-                      measurable business impact. With a combination of insight,
-                      discipline, and practical wisdom, he helps organisations
-                      elevate how they sell, lead, and grow — transforming sales
-                      into a true competitive advantage.
+                      building trust, energising teams, ...
                     </p>
                     <Image
                       src="/assests/testimonials/colon-end.svg"
-                      className="w-10 h-10 absolute bottom-0 right-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute bottom-0 right-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -300,10 +285,10 @@ export default function Carousel() {
                     <i className="fa fa-star" aria-hidden="true"></i>
                     <i className="fa fa-star" aria-hidden="true"></i>
                   </div>
-                  <div className="relative px-[50px] pb-[25px]">
+                  <div className="relative md:px-[50px] px-[20px] pb-[25px]">
                     <Image
                       src="/assests/testimonials/colon-start.svg"
-                      className="w-10 h-10 absolute -top-[25px] left-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute -top-[25px] left-0 "
                       width={500}
                       height={500}
                       alt=""
@@ -316,20 +301,11 @@ export default function Carousel() {
                       demonstrated the ability to translate strategic thinking
                       into grounded execution that delivered measurable results.
                       Jatin played a pivotal role in redesigning our
-                      Go-To-Market architecture, creating state-specific and
-                      channel-focused playbooks that sharpened coverage,
-                      improved channel productivity, and enhanced overall sales
-                      effectiveness. He also led the e-commerce acceleration
-                      agenda, helping integrate online and modern trade into a
-                      cohesive growth framework. What stands out most about
-                      Jatin is his ability to balance strategy with pragmatism —
-                      to think long-term while executing with precision. He
-                      brings tremendous energy, authenticity, and resilience to
-                      every mandate he takes on.
+                      Go-To-Market architecture, ...
                     </p>
                     <Image
                       src="/assests/testimonials/colon-end.svg"
-                      className="w-10 h-10 absolute bottom-0 right-0 "
+                      className="w-5 h-5 md:w-10 md:h-10 absolute bottom-0 right-0 "
                       width={500}
                       height={500}
                       alt=""

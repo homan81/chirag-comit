@@ -11,7 +11,7 @@ export default function Third() {
     <>
       <section>
         <div className="bg-[var(--dgreen)]">
-          <div className="max-w-[1350px] mx-auto px-5 py-12 pb-18 overflow-hidden relative">
+          <div className="max-w-[1350px] mx-auto px-5 md:py-12 py-8 pb-18 overflow-hidden relative">
             <Thirdslider />
           </div>
         </div>

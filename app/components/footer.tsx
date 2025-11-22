@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Top Section */}
           <div
             id="contact"
-            className=" container mx-auto px-0 sm:px-4  py-10 grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-10"
+            className=" container mx-auto px-0 sm:px-4  md:py-10 py-5 grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-10"
           >
             {/* Logo */}
             <div className="flex flex-col items-start sm:border-r lg:border-r-0 border-dotted border-[#356E54]">
@@ -66,13 +66,13 @@ export default function Footer() {
             </div>
 
             {/* Navigation Links */}
-            <div className="flex flex-col space-y-2 lg:border-r *:text-xl border-dotted border-[#356E54]">
+            <div className="flex flex-col space-y-2 lg:border-r *:md:text-xl *:text-lg border-dotted border-[#356E54]">
                 <Link
                   href="/home"
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/"
                       ? "text-[#53FFA9]"
-                      : "text-[var(--lgreen)]"
+                      : "text-white"
                   }`}
                 >
                   Home
@@ -82,7 +82,7 @@ export default function Footer() {
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/about"
                       ? "text-[#53FFA9]"
-                      : "text-[var(--lgreen)]"
+                      : "text-white"
                   }`}
                 >
                    About Us
@@ -92,7 +92,7 @@ export default function Footer() {
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/category"
                       ? "text-[#53FFA9]"
-                      : "text-[var(--lgreen)]"
+                      : "text-white"
                   }`}
                 >
                   Category Experience
@@ -102,7 +102,7 @@ export default function Footer() {
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/testimonials"
                       ? "text-[#53FFA9]"
-                      : "text-[var(--lgreen)]"
+                      : "text-white"
                   }`}
                 >
                   testimonials
@@ -112,7 +112,7 @@ export default function Footer() {
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/casestudies"
                       ? "text-[#53FFA9]"
-                      : "text-[var(--lgreen)]"
+                      : "text-white"
                   }`}
                 >
                   Case Studies
@@ -122,7 +122,7 @@ export default function Footer() {
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/contact"
                       ? "text-[#53FFA9]"
-                      : "text-[var(--lgreen)]"
+                      : "text-white"
                   }`}
                 >
                   Contact Us
@@ -151,7 +151,7 @@ export default function Footer() {
             </div>
 
             {/* Policies */}
-            <div className="flex flex-col space-y-2 sm:border-r  *:text-xl border-dotted border-[#356E54]">
+            <div className="flex flex-col space-y-2 lg:border-r *:md:text-xl *:text-lg border-dotted border-[#356E54]">
               <Link href="" className="hover:text-[#9BE3B3] transition">
                 Privacy Policy
               </Link>
@@ -164,7 +164,7 @@ export default function Footer() {
             </div>
 
             {/* Contact + Social */}
-            <div className="space-y-3  *:text-xl">
+            <div className="space-y-3  *:md:text-xl *:text-lg">
               <a
                 href="tel:9167063112"
                 className="text-sm hover:text-[#9BE3B3] transition"
@@ -185,7 +185,7 @@ export default function Footer() {
               >
                 connect@leapbridgeconsulting.com
               </a>
-              <div className="flex space-x-3 mt-2">
+              <div className="flex space-x-3 mt-3">
                 <Link href="https://www.linkedin.com" target="_blank">
                   <img
                     src="/assests/header/images/linkdin.svg"

@@ -217,7 +217,7 @@ const ProblemSolv = () => {
             className="w-full md:w-1/2 md:p-8 py-8 space-y-6 right-sticky-process text-white 
                       [&>*:nth-child(odd)]:bg-[var(--dgreen)] 
                       [&>*:nth-child(even)]:bg-[var(--dgreen2)] 
-                      *:rounded-lg *:p-8 *:lg:px-18"
+                      *:rounded-lg *:p-8 *:lg:px-18 *:mb-0"
           >
             <div ref={ref} className={`fade-up ${isVisible ? "show" : ""}`}>
               <h3 className="text-[60px] md:text-[80px] lg:text-[100px] font-light">

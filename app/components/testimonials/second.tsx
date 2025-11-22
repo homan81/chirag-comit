@@ -41,7 +41,7 @@ export default function Second() {
                 ref={subheading.ref}
                 className={`fade-up ${
                   subheading.isVisible ? "show" : ""
-                } text-xl text-center max-w-[900px] mx-auto`}
+                } md:text-xl text-lg text-center max-w-[900px] mx-auto`}
               >
                 Each testimonial is a glimpse into the positive impact we
                 create. From service quality to timely support, our clients
@@ -49,7 +49,7 @@ export default function Second() {
               </p>
             </div>
 
-            <div className="*:mt-10 [&_p]:text-xl [&_h3]:text-3xl *:px-14 *:py-10 *:border *:border-[#C8C8C8] *:shadow-[2px_4px_25px_0px_rgba(0,0,0,0.25)]">
+            <div className="*:mt-10 [&_p]:md:text-xl [&_p]:text-lg [&_h3]:md:text-3xl [&_h3]:text-2xl *:md:px-14  *:md:py-10 *:p-5 *:border *:border-[#C8C8C8] *:shadow-[2px_4px_25px_0px_rgba(0,0,0,0.25)]">
               <div
                 ref={testimonial1.ref}
                 className={`fade-up ${
@@ -74,17 +74,17 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Harsh-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Harsh Agarwal
                     </h4>
-                    <p className=" text-[var(--dgreen)]">
+                    <p className="text-[var(--dgreen)]">
                       Vice Chairman & MD Emami Ltd.
                     </p>
                   </div>
@@ -136,14 +136,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Mohan-Goenka.png"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Mohan Goenka
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -178,14 +178,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/vivek-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Vivek Gambhir
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -227,14 +227,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Sunil-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Sunil Kataria
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -268,14 +268,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/sunil-sethi.png"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Sunil Sethi
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -312,14 +312,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Neil-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Neil George
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -350,14 +350,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Sanjay-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Sanjay Purohit
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -401,14 +401,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/SridharBalakrishnan-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Sridhar Balakrishnan
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -445,14 +445,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Praveen-Jakate.png"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Praveen Jakate
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -490,14 +490,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Sandeep-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Sandeep Khandelwal
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -540,14 +540,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Sunilt-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Vinod 
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -591,14 +591,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Himanshu-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Himanshu Bakshi
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -636,14 +636,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/ashish-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Ashish Pisharodi
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -686,14 +686,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Madan-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Madan Mohan Pandey
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -726,14 +726,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Bill-Brothers.png"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Bill Brothers
                     </h4>
                     <p className=" text-[var(--dgreen)]">
@@ -776,14 +776,14 @@ export default function Second() {
                 <div className="w-full flex items-center gap-5">
                   <Image
                     src="/assests/testimonials/Praveen-testi.jpg"
-                    className="w-[90px] h-auto rounded-full"
+                    className="w-[70px] h-auto rounded-full"
                     width={1000}
                     height={1000}
                     alt=""
                   />
 
                   <div>
-                    <h4 className="text-2xl font-semibold text-[var(--dgreen)]">
+                    <h4 className="md:text-2xl text-xl font-semibold text-[var(--dgreen)]">
                       Praveen Dalal
                     </h4>
                     <p className=" text-[var(--dgreen)]">

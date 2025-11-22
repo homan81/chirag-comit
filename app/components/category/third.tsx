@@ -313,18 +313,18 @@ export default function Third() {
                 </div>
               </div> */}
 
-              <div className="pe-20">
+              <div className="md:pe-20">
                 <div className="bg-[#147E5D] pt-5 pb-12 rounded-xl">
                   <h3 className="text-[25px] font-normal text-center text-white">
                     Home & Personal Care
                   </h3>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#ffffff] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:px-6 *:py-3 *:flex *:items-center  *:gap-5">
+                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#ffffff] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:md:px-6 *:px-3  *:py-3 *:flex *:items-center  *:md:gap-5 *:gap-3 [&_img]:md:w-[50px] [&_img]:w-[30px] [&_img]:h-auto [&_img]:p-1">
                   <div className="rounded-tr-3xl rounded-bl-3xl">
                     <Image
                       src="/assests/header/images/soaps.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="md:w-[50px] w-[30px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -334,7 +334,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/LaundaryHomecleaners.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -344,7 +344,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/SkinCare.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -354,7 +354,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/Insectrepellent.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -364,7 +364,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/Body&AdultDiapers.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -374,7 +374,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/MaleGrooming.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -384,7 +384,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/Haircare.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -394,7 +394,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/FemHygiene.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -403,18 +403,18 @@ export default function Third() {
                   </div>
                 </div>
               </div>
-              <div className="pe-20">
+              <div className="md:pe-20">
                 <div className="bg-[#147E5D] pt-5 pb-12 rounded-xl">
                   <h3 className="text-[25px] font-normal text-center text-white">
                     Foods
                   </h3>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#ffffff] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:px-6 *:py-3 *:flex *:items-center  *:gap-5">
+               <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#ffffff] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:md:px-6 *:px-3  *:py-3 *:flex *:items-center  *:md:gap-5 *:gap-3 [&_img]:md:w-[50px] [&_img]:w-[30px] [&_img]:h-auto [&_img]:p-1">
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/Chocolates&Confectionery.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -424,7 +424,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/Biscuits&Cookies.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -434,7 +434,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/SoftDrink&Beverage.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -444,7 +444,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/MaltFoodDrinks.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -455,7 +455,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/EdibleOils.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -465,7 +465,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/Syrups&Spreads.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -475,7 +475,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/Dairy.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -485,7 +485,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/SavourySnacks.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -494,18 +494,18 @@ export default function Third() {
                   </div>
                 </div>
               </div>
-              <div className="pe-20">
+              <div className="md:pe-20">
                 <div className="bg-[#147E5D] pt-5 pb-12 rounded-xl">
                   <h3 className="text-[25px] font-normal text-center text-white">
                     Pharma & OTC
                   </h3>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#ffffff] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:px-6 *:py-3 *:flex *:items-center  *:gap-5">
+                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#ffffff] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:md:px-6 *:px-3  *:py-3 *:flex *:items-center  *:md:gap-5 *:gap-3 [&_img]:md:w-[50px] [&_img]:w-[30px] [&_img]:h-auto [&_img]:p-1">
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/ProteinPowders.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -515,7 +515,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/Rubefacient.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -525,7 +525,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/InfantFormula.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -535,7 +535,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/Ayurvedic&Herbals.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -545,7 +545,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/Nutraceuticals.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -555,7 +555,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/Vitamins&Supplements.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -565,7 +565,7 @@ export default function Third() {
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
                       src="/assests/header/images/WeightManagement.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -575,7 +575,7 @@ export default function Third() {
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
                       src="/assests/header/images/PaediatricSpecialCare.svg"
-                      className="w-[50px] h-auto p-1"
+                      // className="w-[50px] h-auto p-1"
                       width={200}
                       height={200}
                       alt=""
@@ -589,7 +589,7 @@ export default function Third() {
                 <h3 className="text-white text-3xl mb-10">
                   Channels & Geographies Expertise
                 </h3>
-                <ul className="text-white *:text-[25px]">
+                <ul className="text-white *:md:text-[25px] *:text-[20px]">
                   <li>  
                     <div className="py-1 flex items-center gap-5">
                       <Image

@@ -24,7 +24,7 @@ const MainBanner: React.FC = () => {
 
             <div
               ref={ref}
-              className="flex space-x-3 items-center justify-center my-12 h-[30px]"
+              className="flex space-x-3 items-center justify-center md:my-12 my-6 h-[30px]"
             >
               <span
                 className={`bar w-[30px] rounded-full bg-[var(--lgreen2)] ${
@@ -52,7 +52,7 @@ const MainBanner: React.FC = () => {
             ref={ref}
             className={`fade-up ${isVisible ? "show" : ""} heading-home mb-4`}
           >
-            <p className="subtitle-h mt-4 max-w-2xl mx-auto text-base sm:text-lg text-[#CEEAD5]">
+            <p className="subtitle-h md:mt-4 max-w-2xl mx-auto text-base sm:text-lg text-[#CEEAD5]">
               From Insight to Impact
             </p>
             <h1 className="md:text-6xl sm:text-5xl text-3xl  max-w-6xl font-bold text-[#DFFFE0] leading-tight">

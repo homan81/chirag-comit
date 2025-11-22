@@ -18,7 +18,7 @@ export default function Fourth() {
       <section>
         <div className="bg-[#E2F0EB]">
           <div className="container mx-auto px-5 py-10">
-            <div className="flex w-full *:w-1/2 gap-5 items-center">
+            <div className="flex md:flex-row flex-col w-full *:md:w-1/2 gap-5 items-center">
               <div className="lg:pr-14">
                 <Image
                   src="/assests/casestudies/challenges.webp"

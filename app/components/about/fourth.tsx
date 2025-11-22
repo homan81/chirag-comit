@@ -17,7 +17,7 @@ export default function Fourth() {
               </h2>
             </div>
             <div>
-              <p className="text-center max-w-5xl mx-auto text-xl">
+              <p className="text-center max-w-5xl mx-auto md:text-xl text-lg">
                 Jatin Panchal and Vinod Rao bring over five decades of combined
                 leadership across diverse business environments. They blend
                 strategic clarity with practical, on-ground execution, helping
@@ -25,10 +25,10 @@ export default function Fourth() {
                 teams, and unlock scalable growth.
               </p>
             </div>
-            <div className="max-w-[1350px] mx-auto mt-20">
-              <div className="bg-[var(--lgreen)] relative rounded-2xl p-[50px] mb-[140px]">
-                <div className="flex gap-10">
-                  <div className="max-w-[300px] w-full">
+            <div className="max-w-[1350px] mx-auto md:mt-20 mt-10">
+              <div className="bg-[var(--lgreen)] relative rounded-2xl md:p-[50px] p-5 md:mb-[140px] mb-6">
+                <div className="md:flex gap-10">
+                  <div className="sm:max-w-[300px] w-full md:mb-0 mb-5">
                     <Image
                       src="/assests/header/images/Jatin-Panchal.png"
                       className="w-full h-auto rounded-2xl"
@@ -42,15 +42,15 @@ export default function Fourth() {
                       <h3 className="text-3xl font-semibold text-[var(--dgreen)]">
                         Jatin Panchal
                       </h3>
-                      <p className="font-medium text-[var(--dgreen)] text-xl">
+                      <p className="font-medium text-[var(--dgreen)] md:text-xl text-lg">
                         Founder & Partner
                       </p>
-                      <p className="text-xl text-[var(--dgreen2)] ">
+                      <p className="md:text-xl text-lg text-[var(--dgreen2)] ">
                         MBA: SIBM;Exec MBA: INSEAD, France
                       </p>
                     </div>
                     <div className="h-[1px] bg-black max-w-[350px] my-2"></div>
-                    <div className="text-xl max-w-[880px] mt-5">
+                    <div className="md:text-xl text-lg max-w-[880px] md:mt-5 mt-3">
                       A commercial transformation leader with over 25 years of
                       experience in FMCG & consumer healthcare, driving growth,
                       reach, & sales excellence across channels. Jatin has
@@ -64,23 +64,23 @@ export default function Fourth() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute left-0 -bottom-[105px] text-white py-6 px-[50px] bg-[var(--dgreen)] w-fit rounded-tr-[20px] rounded-br-[30px] rounded-bl-[60px] text-[20px]">
+                <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-medium md:[&_span]:font-semibold">
                   <p>
-                    <strong>Abbot Nutrition</strong> - Director Sales
+                    <span>Abbot Nutrition</span> - Director Sales
                   </p>
                   <p>
-                    <strong>Danone Nutrition</strong> - Director sales
+                    <span>Danone Nutrition</span> - Director sales
                   </p>
                   <p>
-                    <strong>Godrej Consumer Products Ltd.</strong> - Head -
+                    <span>Godrej Consumer Products Ltd.</span> - Head -
                     Sales Development
                   </p>
                 </div>
               </div>
 
-              <div className="bg-[var(--lgreen)] relative rounded-2xl p-[50px] mb-[140px]">
-                <div className="flex gap-10">
-                  <div className="max-w-[300px] w-full">
+              <div className="bg-[var(--lgreen)] relative rounded-2xl md:p-[50px] p-5 md:mb-[140px] mb-6">
+                <div className="md:flex gap-10">
+                  <div className="sm:max-w-[300px] w-full md:mb-0 mb-5">
                     <Image
                       src="/assests/header/images/Vinod-Rao.jpg"
                       className="w-full h-auto rounded-2xl"
@@ -94,15 +94,15 @@ export default function Fourth() {
                       <h3 className="text-2xl font-semibold text-[var(--dgreen)]">
                         Vinod Rao
                       </h3>
-                      <p className="font-medium text-[var(--dgreen)] text-xl">
+                      <p className="font-medium text-[var(--dgreen)] md:text-xl text-lg">
                         Founder & Partner
                       </p>
-                      <p className="text-xl text-[var(--dgreen2)]">
+                      <p className="md:text-xl text-lg text-[var(--dgreen2)] ">
                         MBA: JBIMS
                       </p>
                     </div>
                     <div className="h-[1px] bg-black max-w-[350px] my-2"></div>
-                    <div className="text-xl max-w-[880px] mt-5">
+                    <div className="md:text-xl text-lg max-w-[880px] md:mt-5 mt-3">
                       A seasoned P&L leader with over 30 years of experience
                       across FMCG, healthcare, and retail banking. Vinod has led
                       business turnarounds and large scale distribution
@@ -115,7 +115,7 @@ export default function Fourth() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute left-0 -bottom-[105px] text-white py-6 px-[50px] bg-[var(--dgreen)] w-fit rounded-tr-[20px] rounded-br-[30px] rounded-bl-[60px] text-[20px]">
+                <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-medium md:[&_span]:font-semibold">
                   <p>
                     <strong>Nobel Hygiene Pvt Ltd</strong> - Chief Commercial
                     Officer

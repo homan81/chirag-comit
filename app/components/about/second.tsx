@@ -11,7 +11,7 @@ export default function Second() {
       <section>
         <div className="bg-[url('/assests/about/second-bg.svg')]  bg-cover bg-no-repeat bg-center">
           <div className="container mx-auto px-5 lg:py-22 py-12">
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-16">
+            <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-16 gap-6">
               <div
                 ref={heading.ref}
                 className={`fade-up ${
@@ -20,7 +20,7 @@ export default function Second() {
               >
                 <Image
                   src="/assests/about/leap-bridge-consulting.svg"
-                  className="w-full max-w-[500px] mx-auto h-auto"
+                  className="w-full md:max-w-[500px] max-w-[250px] md:mx-auto mr-auto h-auto"
                   width={1000}
                   height={1000}
                   alt=""
@@ -31,7 +31,7 @@ export default function Second() {
                   ref={heading.ref}
                   className={`fade-up ${
                     heading.isVisible ? "show" : ""
-                  } text-[60px] font-semibold text-[var(--dgreen)]`}
+                  } md:text-[60px] text-3xl font-semibold text-[var(--dgreen)]`}
                 >
                   Who we are?
                 </h2>
@@ -40,7 +40,7 @@ export default function Second() {
                   ref={heading.ref}
                   className={`fade-up ${heading.isVisible ? "show" : ""} `}
                 >
-                  <p className="text-2xl text-black text-medium mb-3">
+                  <p className="md:text-2xl text-xl text-black text-medium mb-3">
                     Driving Growth Through Transformation.
                   </p>
                 </div>
@@ -49,7 +49,7 @@ export default function Second() {
                   ref={heading.ref}
                   className={`fade-up ${
                     heading.isVisible ? "show" : ""
-                  } text-xl capitalize`}
+                  } md:text-xl text-lg capitalize`}
                 >
                   <span className="text-[var(--dgreen)] font-semibold">
                     LeapBridge
@@ -72,7 +72,7 @@ export default function Second() {
                   help brands bridge strategy and execution to drive measurable,
                   lasting growth.
                 </p>
-                <p className="px-9 py-3 bg-[var(--dgreen2)] text-white capitalize text-2xl font-semibold mt-7 rounded-md">
+                <p className="md:px-9 px-3 py-3 bg-[var(--dgreen2)] text-white capitalize md:text-2xl text-xl md:font-semibold font-medium mt-7 rounded-md">
                   We don’t just advise, we co-create, build capability, and stay
                   accountable for outcomes.
                 </p>

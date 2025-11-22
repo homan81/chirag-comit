@@ -8,7 +8,7 @@ export default function GreatResult() {
   return (
     <section className="w-full bg-[var(--dgreen)] text-white py-16">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div ref={ref} className={`fade-up ${isVisible ? "show" : ""} p-10`}>
+        <div ref={ref} className={`fade-up ${isVisible ? "show" : ""} md:p-10 px-6`}>
           <Image
             src="\assests\header\logoimage\results_ComboTwo.svg"
             alt="Consulting Illustration"
@@ -23,7 +23,7 @@ export default function GreatResult() {
             ref={ref}
             className={`fade-up ${
               isVisible ? "show" : ""
-            } text-[35px] font-normal leading-snug mb-4`}
+            } md:text-[35px] text-[25px] font-normal leading-snug mb-4`}
           >
             We don’t just advice, we co create , build capability, and help
             deliver sustainable growths.

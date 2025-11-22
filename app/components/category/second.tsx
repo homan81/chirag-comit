@@ -19,7 +19,7 @@ export default function Second() {
                 heading1.isVisible ? "show" : ""
               } max-w-[500px] w-fit`}
             >
-              <p className="text-[var(--dgreen)] text-3xl font-normal">
+              <p className="text-[var(--dgreen)] text-3xl  font-normal md:mb-0 mb-5">
                 Empowering growth across consumer categories
               </p>
             </div>
@@ -27,7 +27,7 @@ export default function Second() {
             <div className="md:flex items-stretch w-full gap-5">
               <div
                 ref={image.ref}
-                className={`fade-up ${image.isVisible ? "show" : ""}  w-full`}
+                className={`fade-up ${image.isVisible ? "show" : ""}  w-full md:block hidden`}
                 >
                 <Image
                   src="assests/header/images/category-border.svg"
@@ -43,7 +43,7 @@ export default function Second() {
                   heading2.isVisible ? "show" : ""
                 } w-full flex items-end`}
               >
-                <p className="text-[var(--dgreen)] text-3xl font-thin">
+                <p className="text-[var(--dgreen)] md:text-3xl text-2xl font-thin">
                   We shape go-to-market excellence across India’s consumer ecosystem
                 </p>
               </div>
