@@ -6,7 +6,7 @@ import useInView from "@/app/hooks/useInView";
 export default function Carousel() {
   const heading = useInView({ threshold: 0.2 });
 
-  const totalSlides = 3;
+  const totalSlides = 5;
   const [current, setCurrent] = useState(0);
 
   // Swipe / Drag
@@ -81,7 +81,7 @@ export default function Carousel() {
         {/* -------------------------------- SLIDE 1 -------------------------------- */}
         <div className="min-w-full relative">
           <Image
-            src="/assests/header/images/herobanner/Large-mncs.jpg"
+            src="/assests/home/gtm.jpg"
             className="object-cover"
             width={1000}
             height={1000}
@@ -96,7 +96,7 @@ export default function Carousel() {
         {/* -------------------------------- SLIDE 2 -------------------------------- */}
         <div className="min-w-full relative">
           <Image
-            src="/assests/header/images/herobanner/Small-mindmnc.jpg"
+            src="/assests/home/Network.jpg"
             className="object-cover"
             width={1000}
             height={1000}
@@ -110,7 +110,7 @@ export default function Carousel() {
         {/* -------------------------------- SLIDE 3 -------------------------------- */}
         <div className="min-w-full relative">
           <Image
-            src="/assests/header/images/herobanner/IndianMNCs.jpg"
+            src="/assests/home/Sales.jpg"
             className="object-cover"
             width={1000}
             height={1000}
@@ -124,7 +124,7 @@ export default function Carousel() {
         {/* -------------------------------- SLIDE 4 -------------------------------- */}
         <div className="min-w-full relative">
           <Image
-            src="/assests/header/images/herobanner/Familybussiness.jpg"
+            src="/assests/home/Capability.jpg"
             className="object-cover"
             width={1000}
             height={1000}
@@ -138,7 +138,7 @@ export default function Carousel() {
         {/* -------------------------------- SLIDE 5 -------------------------------- */}
         <div className="min-w-full relative">
           <Image
-            src="/assests/header/images/herobanner/Large-mncs.jpg"
+            src="/assests/home/Technology.jpg"
             className="object-cover"
             width={1000}
             height={1000}
