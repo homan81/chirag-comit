@@ -143,7 +143,7 @@ export default function AppointmentButton() {
                 />
                 <label className="text-sm text-gray-700">
                   I agree to the{" "}
-                  <a href="#" className="text-[var(--dgreen)] underline">
+                  <a href="/terms-conditions" className="text-[var(--dgreen)] underline">
                     Terms and Conditions
                   </a>
                 </label>
