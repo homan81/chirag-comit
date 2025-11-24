@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import useInView from "@/app/hooks/useInView";
 
 export default function Banner() {
@@ -9,7 +9,7 @@ export default function Banner() {
   return (
     <>
       <section>
-        <div className="bg-[url('/assests/header/images/aboutbanner.jpg')] bg-fixed bg-cover bg-no-repeat bg-center md:min-h-[635px] min-h-[500px] flex items-end">
+        <div className="bg-[url('/assests/header/images/aboutbanner.jpg')] md:bg-fixed bg-cover bg-no-repeat bg-center md:min-h-[635px] min-h-[500px] flex items-end">
           <div className="container mx-auto px-5 py-10">
             <div
               ref={heading.ref}
@@ -24,6 +24,7 @@ export default function Banner() {
           </div>
         </div>
       </section>
+      
     </>
   );
 }

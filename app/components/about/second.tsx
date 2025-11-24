@@ -31,19 +31,19 @@ export default function Second() {
                   ref={heading.ref}
                   className={`fade-up ${
                     heading.isVisible ? "show" : ""
-                  } md:text-[60px] text-3xl font-semibold text-[var(--dgreen)]`}
+                  } md:text-[60px] mb-4 text-3xl font-semibold text-[var(--dgreen)]`}
                 >
                   Who we are?
                 </h2>
 
-                <div
+                {/* <div
                   ref={heading.ref}
                   className={`fade-up ${heading.isVisible ? "show" : ""} `}
                 >
                   <p className="md:text-2xl text-xl text-black text-medium mb-3">
                     Driving Growth Through Transformation.
                   </p>
-                </div>
+                </div> */}
 
                 <p
                   ref={heading.ref}
@@ -73,8 +73,7 @@ export default function Second() {
                   lasting growth.
                 </p>
                 <p className="md:px-9 px-3 py-3 bg-[var(--dgreen2)] text-white capitalize md:text-2xl text-xl md:font-semibold font-medium mt-7 rounded-md">
-                  We don’t just advise, we co-create, build capability, and stay
-                  accountable for outcomes.
+                  We don’t just advice, we co create , build capability, and help deliver sustainable growths
                 </p>
               </div>
             </div>

@@ -50,7 +50,7 @@ export default function Fifth() {
                 </div>
               </div>
 
-              <div className="lg:p-22 p-12 md:pb-12 pb-0">
+              <div className="lg:p-22 md:max-w-full max-w-[300px] mx-auto mt-5 md:mt-0 md:pb-12 pb-0">
                 <Image
                   src="/assests/about/create-value.png"
                   className="w-full h-auto object-contain block"

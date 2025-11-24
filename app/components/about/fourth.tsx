@@ -30,7 +30,7 @@ export default function Fourth() {
                 <div className="md:flex gap-10">
                   <div className="sm:max-w-[300px] w-full md:mb-0 mb-5">
                     <Image
-                      src="/assests/header/images/Jatin-Panchal.png"
+                      src="/assests/header/images/Jatin-Panchal.jpg"
                       className="w-full h-auto rounded-2xl"
                       width={1000}
                       height={1000}
@@ -64,7 +64,7 @@ export default function Fourth() {
                     </div>
                   </div>
                 </div>
-                <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-medium md:[&_span]:font-semibold">
+                <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-semibold">
                   <p>
                     <span>Abbot Nutrition</span> - Director Sales
                   </p>
@@ -115,7 +115,7 @@ export default function Fourth() {
                     </div>
                   </div>
                 </div>
-                <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-medium md:[&_span]:font-semibold">
+                <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-semibold">
                   <p>
                     <strong>Nobel Hygiene Pvt Ltd</strong> - Chief Commercial
                     Officer

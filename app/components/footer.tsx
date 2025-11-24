@@ -108,7 +108,7 @@ export default function Footer() {
                   testimonials
                 </Link>
                 <Link
-                  href="/casestudies"
+                  href="/casestudies/pharma"
                   className={`hover:text-[#53FFA9] transition ${
                     pathname === "/casestudies"
                       ? "text-[#53FFA9]"
@@ -152,13 +152,13 @@ export default function Footer() {
 
             {/* Policies */}
             <div className="flex flex-col space-y-2 lg:border-r *:md:text-xl *:text-lg border-dotted border-[#356E54]">
-              <Link href="" className="hover:text-[#9BE3B3] transition">
+              <Link href="/privacy-policy" className="hover:text-[#9BE3B3] transition">
                 Privacy Policy
               </Link>
-              <Link href="" className="hover:text-[#9BE3B3] transition">
+              <Link href="/terms-conditions" className="hover:text-[#9BE3B3] transition">
                 Terms & Conditions
               </Link>
-              <Link href="" className="hover:text-[#9BE3B3] transition">
+              <Link href="/cookie-policy" className="hover:text-[#9BE3B3] transition">
                 Cookie Policy
               </Link>
             </div>
