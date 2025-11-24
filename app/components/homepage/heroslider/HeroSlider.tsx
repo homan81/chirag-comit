@@ -1,17 +1,18 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import useInView from "@/app/hooks/useInView";
 
 export default function Carousel() {
-  const totalSlides = 5;
+  const heading = useInView({ threshold: 0.2 });
 
+  const totalSlides = 3;
   const [current, setCurrent] = useState(0);
 
-  // Swipe refs
+  // Swipe / Drag
   const startX = useRef(0);
   const isDragging = useRef(false);
-
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<HTMLDivElement | null>(null);
 
   const nextSlide = () =>
     setCurrent((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
@@ -26,20 +27,25 @@ export default function Carousel() {
   }, [current]);
 
   // Touch / Mouse Start
-  const handleTouchStart = (e: any) => {
+  const handleTouchStart = (
+    e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>
+  ) => {
     isDragging.current = true;
+
     startX.current = e.type.includes("mouse")
-      ? e.clientX
-      : e.touches[0].clientX;
+      ? (e as React.MouseEvent<HTMLDivElement>).clientX
+      : (e as React.TouchEvent<HTMLDivElement>).touches[0].clientX;
   };
 
   // Touch / Mouse Move
-  const handleTouchMove = (e: any) => {
+  const handleTouchMove = (
+    e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>
+  ) => {
     if (!isDragging.current) return;
 
     const moveX = e.type.includes("mouse")
-      ? e.clientX - startX.current
-      : e.touches[0].clientX - startX.current;
+      ? (e as React.MouseEvent<HTMLDivElement>).clientX - startX.current
+      : (e as React.TouchEvent<HTMLDivElement>).touches[0].clientX - startX.current;
 
     if (moveX < -50) {
       nextSlide();

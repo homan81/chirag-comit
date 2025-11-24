@@ -11,7 +11,7 @@ export default function Carousel() {
   // Swipe / Drag
   const startX = useRef(0);
   const isDragging = useRef(false);
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<HTMLDivElement | null>(null);
 
   const nextSlide = () =>
     setCurrent((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
@@ -25,20 +25,26 @@ export default function Carousel() {
     return () => clearInterval(interval);
   }, [current]);
 
-  // Touch / Mouse handlers
-  const handleTouchStart = (e: any) => {
+  // Touch / Mouse Start
+  const handleTouchStart = (
+    e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>
+  ) => {
     isDragging.current = true;
+
     startX.current = e.type.includes("mouse")
-      ? e.clientX
-      : e.touches[0].clientX;
+      ? (e as React.MouseEvent<HTMLDivElement>).clientX
+      : (e as React.TouchEvent<HTMLDivElement>).touches[0].clientX;
   };
 
-  const handleTouchMove = (e: any) => {
+  // Touch / Mouse Move
+  const handleTouchMove = (
+    e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>
+  ) => {
     if (!isDragging.current) return;
 
     const moveX = e.type.includes("mouse")
-      ? e.clientX - startX.current
-      : e.touches[0].clientX - startX.current;
+      ? (e as React.MouseEvent<HTMLDivElement>).clientX - startX.current
+      : (e as React.TouchEvent<HTMLDivElement>).touches[0].clientX - startX.current;
 
     if (moveX < -50) {
       nextSlide();
@@ -49,9 +55,11 @@ export default function Carousel() {
     }
   };
 
+  // Touch / Mouse End
   const handleTouchEnd = () => {
     isDragging.current = false;
   };
+
 
   return (
     <div className="w-full mx-auto overflow-hidden">
