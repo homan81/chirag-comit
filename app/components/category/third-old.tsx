@@ -39,9 +39,281 @@ export default function Third() {
               </p>
             </div>
             <div className="grid md:grid-cols-2 text-black 2xl:max-w-[1300px] lg:max-w-[1150px]">
-             
+              {/* <div className="pe-20">
+                <div className="bg-[#A3B5A7] pt-5 pb-12 rounded-xl">
+                  <h3 className="text-[25px] font-normal text-center text-[var(--dgreen)]">
+                    Home & Personal Care
+                  </h3>
+                </div>
 
-              <div className="md:pr-20">
+                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#5B6F60] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:px-6 *:py-3 *:flex *:items-center  *:gap-5">
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/soaps.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Soaps</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/laundry.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Laundry & Home cleaners</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/skin.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Skin Care</p>
+                  </div>
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/insect.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Insect repellent</p>
+                  </div>
+
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/diapers.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Baby & Adult Diapers</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/perfume.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Male Grooming</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/haircare.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Hair care</p>
+                  </div>
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/hygene.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Fem Hygiene</p>
+                  </div>
+                </div>
+              </div>
+              <div className="pe-20">
+                <div className="bg-[#A3B5A7] pt-5 pb-12 rounded-xl">
+                  <h3 className="text-[25px] font-normal text-center text-[var(--dgreen)]">
+                    Foods
+                  </h3>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#5B6F60] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:px-6 *:py-3 *:flex *:items-center  *:gap-5">
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/choclate.svg"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Chocolates & Confectionery</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/soft-drink.svg"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Biscuits & Cookies</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/skin.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Soft Drink and Beverage</p>
+                  </div>
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/insect.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Malt Food Drinks</p>
+                  </div>
+
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/diapers.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Edible Oils</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/perfume.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Syrups & Spreads</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/haircare.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Dairy</p>
+                  </div>
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/hygene.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Savoury Snacks</p>
+                  </div>
+                </div>
+              </div>
+              <div className="pe-20">
+                <div className="bg-[#A3B5A7] pt-5 pb-12 rounded-xl">
+                  <h3 className="text-[25px] font-normal text-center text-[var(--dgreen)]">
+                    Pharma & OTC
+                  </h3>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3 -mt-[32px] mb-[40px] *:bg-[#5B6F60] *:2xl:text-[18px] *:text-[16px] *:border *:border-[#859D8A]  *:px-6 *:py-3 *:flex *:items-center  *:gap-5">
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/soaps.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Protein Powders</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/laundry.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Rubefacient</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/skin.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Infant Formula</p>
+                  </div>
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/insect.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Ayurvedic and Herbals</p>
+                  </div>
+
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/diapers.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Nutraceuticals</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/perfume.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Vitamins and Supplements</p>
+                  </div>
+                  <div className="rounded-tl-3xl rounded-br-3xl  ">
+                    <Image
+                      src="/assests/header/images/haircare.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Weight Management</p>
+                  </div>
+                  <div className="rounded-tr-3xl rounded-bl-3xl  ">
+                    <Image
+                      src="/assests/header/images/hygene.png"
+                      className="w-[50px] h-auto p-1"
+                      width={200}
+                      height={200}
+                      alt=""
+                    />
+                    <p>Paediatric Special Care</p>
+                  </div>
+                </div>
+              </div> */}
+
+              <div className="md:pe-20">
                 <div className="bg-[#147E5D] pt-5 pb-12 rounded-xl">
                   <h3 className="text-[25px] font-normal text-center text-white">
                     Home & Personal Care
@@ -67,7 +339,7 @@ export default function Third() {
                       height={200}
                       alt=""
                     />
-                    <p>Laundry and Home Cleaners</p>
+                    <p>Laundry & Home cleaners</p>
                   </div>
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
@@ -97,7 +369,7 @@ export default function Third() {
                       height={200}
                       alt=""
                     />
-                    <p>Baby and Adult Diapers</p>
+                    <p>Baby & Adult Diapers</p>
                   </div>
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
@@ -117,7 +389,7 @@ export default function Third() {
                       height={200}
                       alt=""
                     />
-                    <p>Hair Care</p>
+                    <p>Hair care</p>
                   </div>
                   <div className="rounded-tr-3xl rounded-bl-3xl  ">
                     <Image
@@ -131,7 +403,7 @@ export default function Third() {
                   </div>
                 </div>
               </div>
-              <div className="md:pr-20">
+              <div className="md:pe-20">
                 <div className="bg-[#147E5D] pt-5 pb-12 rounded-xl">
                   <h3 className="text-[25px] font-normal text-center text-white">
                     Foods
@@ -147,7 +419,7 @@ export default function Third() {
                       height={200}
                       alt=""
                     />
-                    <p>Chocolates and Confectionery</p>
+                    <p>Chocolates & Confectionery</p>
                   </div>
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
@@ -157,7 +429,7 @@ export default function Third() {
                       height={200}
                       alt=""
                     />
-                    <p>Biscuits and Cookies</p>
+                    <p>Biscuits & Cookies</p>
                   </div>
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
@@ -198,7 +470,7 @@ export default function Third() {
                       height={200}
                       alt=""
                     />
-                    <p>Syrups and Spreads</p>
+                    <p>Syrups & Spreads</p>
                   </div>
                   <div className="rounded-tl-3xl rounded-br-3xl  ">
                     <Image
@@ -222,7 +494,7 @@ export default function Third() {
                   </div>
                 </div>
               </div>
-              <div className="md:pr-20">
+              <div className="md:pe-20">
                 <div className="bg-[#147E5D] pt-5 pb-12 rounded-xl">
                   <h3 className="text-[25px] font-normal text-center text-white">
                     Pharma & OTC
@@ -315,7 +587,7 @@ export default function Third() {
 
               <div className="">
                 <h3 className="text-white text-3xl mb-10">
-                  Channels and Geographies Expertise
+                  Channels & Geographies Expertise
                 </h3>
                 <ul className="text-white *:md:text-[25px] *:text-[20px]">
                   <li>  

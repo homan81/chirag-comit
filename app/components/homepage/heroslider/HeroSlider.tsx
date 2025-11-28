@@ -145,7 +145,7 @@ export default function Carousel() {
             alt=""
           />
           <div className="absolute bottom-[50%] pb-10 left-0 w-full h-full flex flex-col items-center justify-end bg-[linear-gradient(0deg,rgba(0,0,0,0.7)_0%,rgba(255,255,255,0)_50%)] text-center text-white">
-            <h3>Technology and data Analytics</h3>
+            <h3>Technology and Data Analytics</h3>
           </div>
         </div>
 

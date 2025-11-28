@@ -34,7 +34,7 @@ export default function Sixth() {
               </div>
               <div>
                 <img src="/assests/header/images/Execution.png" className="p-5 max-w-[130px] mx-auto" alt="" />
-                <p>Execution</p>
+                <p>Execute</p>
               </div>
             </div>
 

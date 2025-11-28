@@ -46,34 +46,34 @@ export default function Fourth() {
                         Founder & Partner
                       </p>
                       <p className="md:text-xl text-lg text-[var(--dgreen2)] ">
-                        MBA: SIBM;Exec MBA: INSEAD, France
+                        MBA: SIBM; Executive MBA: INSEAD, France
                       </p>
                     </div>
                     <div className="h-[1px] bg-black max-w-[350px] my-2"></div>
                     <div className="md:text-xl text-lg max-w-[880px] md:mt-5 mt-3">
                       A commercial transformation leader with over 25 years of
-                      experience in FMCG & consumer healthcare, driving growth,
-                      reach, & sales excellence across channels. Jatin has
-                      successfully led the transition of healthcare & pharma
+                      experience in FMCG and consumer healthcare, driving
+                      growth, reach and sales excellence across channels. Jatin
+                      has successfully led the transition of healthcare & pharma
                       portfolios into consumer-facing FMCG businesses. Expertise
-                      in building new businesses, including ecom for FMCG firms,
-                      he blends analytical precision with people-centric
+                      in building new businesses, including e-commerce for FMCG
+                      firms, he blends analytical precision with people-centric
                       leadership. He excels in designing transformative
-                      go-to-market strategies, building capable teams, &
+                      go-to-market strategies, building capable teams and
                       unlocking business momentum through insight-led execution.
                     </div>
                   </div>
                 </div>
                 <div className="md:absolute mt-5 md:mt-0 left-0 -bottom-[105px] text-white md:py-6 py-4 md:px-[50px] px-[20px] bg-[var(--dgreen)] w-fit md:rounded-tr-[20px] md:rounded-br-[30px] md:rounded-bl-[60px] rounded-[20px] md:text-[20px] [&_span]:font-semibold">
                   <p>
-                    <span>Abbot Nutrition</span> - Director Sales
+                    <span>Abbott Nutrition </span> - Director Sales
                   </p>
                   <p>
-                    <span>Danone Nutrition</span> - Director sales
+                    <span>Danone Nutrition</span> - Director Sales
                   </p>
                   <p>
-                    <span>Godrej Consumer Products Ltd.</span> - Head -
-                    Sales Development
+                    <span>Godrej Consumer Products Ltd.</span> - Head - Sales
+                    Development
                   </p>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function Fourth() {
                     <div className="md:text-xl text-lg max-w-[880px] md:mt-5 mt-3">
                       A seasoned P&L leader with over 30 years of experience
                       across FMCG, healthcare, and retail banking. Vinod has led
-                      business turnarounds and large scale distribution
+                      business turnarounds and large-scale distribution
                       expansions, earning a reputation for translating strategy
                       into seamless execution. He brings deep expertise in sales
                       transformation, category growth, channel management, and

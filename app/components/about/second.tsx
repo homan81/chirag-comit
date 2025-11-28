@@ -33,7 +33,7 @@ export default function Second() {
                     heading.isVisible ? "show" : ""
                   } md:text-[60px] mb-4 text-3xl font-semibold text-[var(--dgreen)]`}
                 >
-                  Who we are?
+                  Who are we?
                 </h2>
 
                 {/* <div
@@ -49,14 +49,14 @@ export default function Second() {
                   ref={heading.ref}
                   className={`fade-up ${
                     heading.isVisible ? "show" : ""
-                  } md:text-xl text-lg capitalize`}
+                  } md:text-xl text-lg`}
                 >
                   <span className="text-[var(--dgreen)] font-semibold">
                     LeapBridge
                   </span>{" "}
                   Consulting is a boutique growth and transformation advisory
                   firm helping consumer-facing businesses unlock scale and
-                  performance. We specialize in Route-to-Market redesign, sales
+                  performance. We specialize in route-to-market redesign, sales
                   excellence, and execution-led transformation across FMCG,
                   healthcare, and consumer retail. <br />
                   <br />
@@ -65,7 +65,7 @@ export default function Second() {
                     over 55 years of combined leadership experience
                   </span>
                   , we bring strategic depth and executional rigor, powered by
-                  sales technology and AI-driven insights that enable smarter,
+                  sales analytics and AI-driven insights that enable smarter,
                   faster decisions. <br />
                   <br />
                   From digital sales enablement to channel transformation, we
@@ -73,7 +73,8 @@ export default function Second() {
                   lasting growth.
                 </p>
                 <p className="md:px-9 px-3 py-3 bg-[var(--dgreen2)] text-white capitalize md:text-2xl text-xl md:font-semibold font-medium mt-7 rounded-md">
-                  We don’t just advice, we co create , build capability, and help deliver sustainable growths
+                  We don’t just advise; we co-create, build capability, and help
+                  deliver sustainable growth.
                 </p>
               </div>
             </div>

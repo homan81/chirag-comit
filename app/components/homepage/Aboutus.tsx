@@ -12,7 +12,7 @@ export default function Aboutus() {
           <div className="container mx-auto">
             <div className="max-w-[800px] mx-auto">
               <h2 className="text-4xl font-bold text-center mb-2 text-[var(--dgreen)]">
-                What do we do ?
+                What do we do?
               </h2>
               <p className="text-2xl font-medium mb-2 text-center text-[var(--dgreen)]">
                 Driving Growth Through Transformation.

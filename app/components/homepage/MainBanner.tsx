@@ -56,7 +56,7 @@ const MainBanner: React.FC = () => {
               From Insight to Impact
             </p>
             <h1 className="md:text-6xl sm:text-5xl text-3xl  max-w-6xl font-bold text-[#DFFFE0] leading-tight">
-              We Make it Happen
+              We Make It Happen
             </h1>
           </div>
 

@@ -105,7 +105,7 @@ export default function Footer() {
                       : "text-white"
                   }`}
                 >
-                  testimonials
+                  Testimonials
                 </Link>
                 <Link
                   href="/casestudies/pharma"
@@ -156,7 +156,7 @@ export default function Footer() {
                 Privacy Policy
               </Link>
               <Link href="/terms-conditions" className="hover:text-[#9BE3B3] transition">
-                Terms & Conditions
+                Terms and Conditions
               </Link>
               <Link href="/cookie-policy" className="hover:text-[#9BE3B3] transition">
                 Cookie Policy
@@ -169,7 +169,7 @@ export default function Footer() {
                 href="tel:9167063112"
                 className="text-sm hover:text-[#9BE3B3] transition"
               >
-                +91-91670 63112
+                +91 91670 63112
               </a>{" "}
               <br />
               <a
@@ -211,7 +211,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="bg-[#147e5d] text-center py-3 text-sm text-white">
-          Copyright © 2025 Leap Bridge Consulting. All rights reserved.
+          Copyright © 2025 LeapBridge Consulting. All rights reserved.
         </div>
       </footer>
 

@@ -21,12 +21,12 @@ export default function ScrumPage() {
             </div>
 
             <h3 className="text-4xl font-medium mb-5">
-              Schedule a call with us to see if we can help
+              Schedule a call with us to see if we can help.
             </h3>
-            <p className="text-lg">
+            {/* <p className="text-lg">
               Praesent ac massa at ligula laoreet iaculis. Vivamus aliquet elit
               ac nisl. Sed aliquam ultrices.
-            </p>
+            </p> */}
 
             <div className="h-[1px] bg-[#1b32334d] my-10" />
 
@@ -77,7 +77,7 @@ export default function ScrumPage() {
           <div className="p-0 sm:p-4">
             <div className="p-0 sm:p-5">
               <h3 className="text-[23px] font-medium max-w-[370px] mx-auto text-center px-3">
-                Fill in the form and we will get back to you within 24h
+                Fill in the form and we will get back to you within 24 hours
               </h3>
               
               <ContactForm />

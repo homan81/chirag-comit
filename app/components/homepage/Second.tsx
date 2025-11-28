@@ -25,18 +25,18 @@ export default function Second() {
                   <h3 className="font-semibold text-3xl">Jatin Panchal</h3>
                   <p className="text-xl font-medium">Founder & Partner</p>
                   <p className="text-xl mb-3">
-                    MBA: SIBM Exec MBA: INSEAD, France
+                    MBA: SIBM; Executive MBA: INSEAD, France
                   </p>
                   <p className="text-xl">
                     A commercial transformation leader with over 25 years of
-                    experience in FMCG & consumer healthcare, driving growth,
-                    reach, & sales excellence across channels. Jatin has
+                    experience in FMCG and consumer healthcare, driving growth,
+                    reach and sales excellence across channels. Jatin has
                     successfully led the transition of healthcare & pharma
                     portfolios into consumer-facing FMCG businesses. Expertise
                     in building new businesses, including ecom for FMCG firms,
                     he blends analytical precision with people-centric
                     leadership. He excels in designing transformative
-                    go-to-market strategies, building capable teams, & unlocking
+                    go-to-market strategies, building capable teams and unlocking
                     business momentum through insight-led execution.
                   </p>
                 </div>
@@ -60,10 +60,10 @@ export default function Second() {
                   <p className="text-xl">
                     A seasoned P&L leader with over 30 years of experience
                     across FMCG, healthcare, and retail banking. Vinod has led
-                    business turnarounds and large scale distribution
+                    business turnarounds and large-scale distribution
                     expansions, earning a reputation for translating strategy
                     into seamless execution. He brings deep expertise in sales
-                    transformation, category growth, channel management, and
+                    transformation, category growth, channel management and
                     trade excellence, along with hands-on experience in cold
                     chain infrastructure and operating within both family-run
                     and PE-backed promoter environments.

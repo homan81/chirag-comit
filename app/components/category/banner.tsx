@@ -18,7 +18,7 @@ export default function Banner() {
               } max-w-[600px] w-fit md:p-8 p-4 bg-black/50 backdrop-blur-sm rounded-[10px]`}
             >
               <h1 className="text-white sm:text-start text-center lg:text-[50px] md:text-5xl sm:text-4xl text-2xl lg:leading-14 md:leading-10 sm:leading-8 leading-8">
-                360° Expertise, From Strategy to Shelf.
+                360° Expertise, from Strategy to Shelf
               </h1>
             </div>
           </div>
