@@ -3,17 +3,21 @@ import { useState, FormEvent } from "react";
 
 export default function AppointmentButton() {
   const [isOpen, setIsOpen] = useState(false);
+  const [loading, setLoading] = useState(false); // ⭐ NEW
 
   const today = new Date().toISOString().split("T")[0];
   const minTime = "09:00";
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setLoading(true); // ⭐ Start loader
+
     const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData);
+    const data: any = Object.fromEntries(formData);
 
     if (!data.agree) {
       alert("You must agree to the Terms and Conditions.");
+      setLoading(false);
       return;
     }
 
@@ -29,6 +33,8 @@ export default function AppointmentButton() {
     } else {
       alert("Failed to submit. Please try again.");
     }
+
+    setLoading(false); // ⭐ Stop loader
   };
 
   return (
@@ -151,9 +157,10 @@ export default function AppointmentButton() {
 
               <button
                 type="submit"
-                className="w-full bg-[var(--dgreen)] text-white py-2 rounded-md hover:bg-[var(--dgreen2)] transition"
+                disabled={loading}
+                className="w-full bg-[var(--dgreen)] text-white py-2 rounded-md hover:bg-[var(--dgreen2)] transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Submit
+                {loading ? "Submitting..." : "Submit"}
               </button>
             </form>
           </div>
